@@ -1,7 +1,7 @@
 import * as fs from 'fs'
-import * as csv from 'csv'
+import * as $csv from 'csv'
 
-export class Canx {
+export namespace csv {
   /**
    * Parse CSV From String
    * @param str
@@ -9,9 +9,9 @@ export class Canx {
    * @example
    * await Canx.parse_csv_string(`a,b,c`)
    */
-  static async parse_csv_string(str: string) {
+  export async function parse_csv_string(str: string) {
     return new Promise((resolve, reject) => {
-      csv.parse(str, (e, d) => {
+      $csv.parse(str, (e, d) => {
         if (e)
           reject(e)
         else
@@ -25,13 +25,13 @@ export class Canx {
    * @param filepath
    *
    * @example
-   * await Canx.parse_csv_file('path/to/file.csv')
+   * await Canx.parse_csv_file('path/to/file.$csv')
    */
-  static async parse_csv_file(filepath: string) {
+  export async function parse_csv_file(filepath: string) {
     const parsed = []
     return new Promise((resolve, reject) => {
       fs.createReadStream(filepath)
-        .pipe(csv.parse())
+        .pipe($csv.parse())
         .on('data', function (row) {
           parsed.push(row)
         })
