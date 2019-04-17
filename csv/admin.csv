@@ -1,0 +1,3 @@
+role ,action,table,exception,field$
+admin,read  ,user ,only     ,username|password
+a    ,read  ,user ,except   ,username|password

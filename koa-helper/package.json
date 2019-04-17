@@ -1,0 +1,14 @@
+{
+  "name": "@bithana/koa-helper",
+  "version": "1.0.1",
+  "description": "Koa response helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.7.0"
+  }
+}
