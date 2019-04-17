@@ -1,0 +1,23 @@
+{
+  "name": "canx",
+  "version": "0.0.1",
+  "description": "Powerful permission management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bithana/csv": "0.0.2",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.123",
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.4",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.3"
+  }
+}
