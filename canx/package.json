@@ -1,6 +1,7 @@
 {
   "name": "canx",
   "version": "0.0.1",
+  "repository": "https://github.com/mosteast/package/tree/master/canx",
   "description": "Powerful permission management.",
   "main": "index.js",
   "scripts": {
