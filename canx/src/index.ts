@@ -1,29 +1,72 @@
-import { parse_csv_file, parse_csv_string } from '@bithana/csv'
+import { Permission_Node, Role_List, Role_Map } from './type'
 
-export type Permission_Table = string[][]
+/**
+ * Permission Table Name In A Class (Property name)
+ *
+ * @example This function manipulate the class you passed
+ * class User {
+ *   static __PERMISSION_TABLE = {...}
+ * }
+ */
+export let _ptn_ = '__PERMISSION_TABLE'
 
-export class Canx {
-  protected permission_table: Permission_Table
-
-  can(role, action, thing) {
-
-  }
-
-  can_do_everything(role) {
-
-  }
-
-  async load_csv(csv_str: string) {
-    return this.permission_table = await <any>parse_csv_string(csv_str)
-  }
-
-  async load_csv_file(filepath: string) {
-    return this.permission_table = await <any>parse_csv_file(filepath)
-  }
-
-  get_permission_table() {
-    return this.permission_table
+/**
+ * Set Basic Permission Table Data Structure
+ * @param constructor
+ *
+ * @example
+ * ```
+ * class A {}
+ *
+ * init_table_once(A)
+ * // A become:
+ * class A {
+ *   static __PERMISSION_TABLE = {...}
+ * }
+ * ```
+ */
+export function init_table(constructor) {
+  constructor[_ptn_] = <Permission_Node>{
+    initialized: true,
+    type: 'table',
+    name: constructor.name,
+    children: {},
+    action: {},
   }
 }
 
+export function init_table_once(constructor) {
+  const pt = <Permission_Node>constructor[_ptn_]
+  if (!pt || !pt.initialized)
+    init_table(constructor)
+}
 
+export function allow(action: string, role$: Role_Map | Role_List) {
+  return function (constructor) {
+    let role_map
+
+    if (Array.isArray(role$)) {
+      role_map = convert_role_list_to_role_map(role$)
+    } else
+      role_map = role$
+
+    init_table_once(constructor)
+    const pt = <Permission_Node>constructor.__PERMISSION_TABLE
+    pt.action[action] = role_map
+    console.dir(pt)
+  }
+}
+
+export function read(role$: Role_Map | Role_List) {
+
+  return allow('read', role$)
+}
+
+function convert_role_list_to_role_map(list): Role_Map {
+  const map = {}
+  for (let it of list) {
+    map[it] = true
+  }
+
+  return map
+}
