@@ -1,1 +1,1 @@
-# Public Packages Shared Cross Bithana teams
+# Public Packages Shared Cross Bithana Team
