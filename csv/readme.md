@@ -1,7 +1,7 @@
 # Simple CSV Parser
 
 ## Project Information
-- Main Problem this package solves: Parse csv easily.
+- Main problem this package solves: Parse csv easily.
 - Main language: Typescript.
 
 ## Getting started

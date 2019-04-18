@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2b655e1d-60dc-46f2-b375-2e3ebed4eebf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canx/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/canx/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/canx/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/canx/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/csv/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csv/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/csv/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/csv/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,20 +21,20 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/csv/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="152">
-                <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
+        <entry file="file://$PROJECT_DIR$/csv/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>version&quot;:</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,11 +69,6 @@
             <path>
               <item name="@bithana" type="b2602c69:ProjectViewProjectNode" />
               <item name="@bithana" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="@bithana" type="b2602c69:ProjectViewProjectNode" />
-              <item name="@bithana" type="462c0819:PsiDirectoryNode" />
-              <item name="canx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="@bithana" type="b2602c69:ProjectViewProjectNode" />
@@ -167,18 +163,18 @@
       <updated>1555563327837</updated>
       <workItem from="1555563329129" duration="1243000" />
       <workItem from="1555565346497" duration="18000" />
-      <workItem from="1555565368740" duration="1695000" />
+      <workItem from="1555565368740" duration="2473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2956000" />
+    <option name="totallyTimeSpent" value="3734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -196,7 +192,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Tool Output" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4065805" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4065805" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="ANTLR Preview" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -262,29 +258,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/canx/package.json">
+    <entry file="file://$PROJECT_DIR$/canx/node_modules/@types/jest/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="648">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csv/package.json">
+    <entry file="file://$PROJECT_DIR$/canx/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="258">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_PLUGINS_DIR$/NodeJS/lib/NodeJS.jar!/com/jetbrains/nodejs/packageJson/packageJsonSchema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="177" column="28" lean-forward="true" selection-start-line="177" selection-start-column="28" selection-end-line="177" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx/node_modules/jest/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/csv/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <first_editor relative-caret-position="98">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
