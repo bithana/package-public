@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b4b5d34d-8434-49b9-a7e2-8229538ec02c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canx-tmp/admin.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canx-tmp/jest.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canx-tmp/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canx-tmp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canx-tmp/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canx-tmp/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canx-tmp/test1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canx-tmp/test_data/super.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canx-tmp/tmp.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canx-tmp/tsconfig.json" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>config</find>
+      <find>','</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/csv/test.ts" />
+        <option value="$PROJECT_DIR$/canx/test_data/super.csv" />
+        <option value="$PROJECT_DIR$/csv/tsconfig.json" />
+        <option value="$PROJECT_DIR$/csv/jest.config.js" />
+        <option value="$PROJECT_DIR$/canx/test.ts" />
+        <option value="$PROJECT_DIR$/canx/jest.config.js" />
+        <option value="$PROJECT_DIR$/canx/readme.md" />
+        <option value="$PROJECT_DIR$/canx/index.ts" />
+        <option value="$PROJECT_DIR$/canx/test/test.ts" />
+        <option value="$PROJECT_DIR$/canx/src/index.ts" />
+        <option value="$PROJECT_DIR$/csv/test/test2.csv" />
+        <option value="$PROJECT_DIR$/csv/index.ts" />
+        <option value="$PROJECT_DIR$/csv/test/test.ts" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/csv/package.json" />
+        <option value="$PROJECT_DIR$/canx/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="@bithana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="@bithana" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="@bithana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="@bithana" type="462c0819:PsiDirectoryNode" />
+              <item name="csv" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/csv/test" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="/usr/local/lib/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/csv/node_modules/jest" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/canx/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/csv/test/data" />
+      <recent name="$PROJECT_DIR$/csv/test" />
+      <recent name="$PROJECT_DIR$/canx/test" />
+      <recent name="$PROJECT_DIR$/canx/test/data" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/csv/test" />
+      <recent name="$PROJECT_DIR$/canx" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Jest.test.ts (3)">
+    <configuration type="JavaScriptTestRunnerJest" temporary="true">
+      <config-file value="$PROJECT_DIR$/csv/jest.config.js" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/canx/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/csv" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/csv/test.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest">
+      <config-file value="$PROJECT_DIR$/canx/jest.config.js" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/canx/node_modules/jest" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.ts (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/canx/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/canx" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/canx/test/test.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test.ts (2)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/csv/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/csv" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/csv/test.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test.ts (3)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/csv/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/csv" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/csv/test/test.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/canx/jest.config.js" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/canx/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/canx" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/canx/test.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/csv/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/csv" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/csv/test.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Jest.test.ts" />
+      <item itemvalue="Jest.test.ts (1)" />
+      <item itemvalue="Jest.test.ts (2)" />
+      <item itemvalue="Jest.test.ts (3)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.test.ts (3)" />
+        <item itemvalue="Jest.test.ts (2)" />
+        <item itemvalue="Jest.test.ts (1)" />
+        <item itemvalue="Jest.test.ts" />
+        <item itemvalue="Jest.test.ts" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4b5d34d-8434-49b9-a7e2-8229538ec02c" name="Default Changelist" comment="" />
+      <created>1555475796254</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555475796254</updated>
+      <workItem from="1555475798870" duration="1363000" />
+      <workItem from="1555479631252" duration="4470000" />
+      <workItem from="1555489119612" duration="4456000" />
+      <workItem from="1555559826859" duration="3070000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="test_ts - 2019.04.17 at 20h 58m 12s.xml">
+      <configuration name="test.ts" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="test_ts_(1) - 2019.04.17 at 21h 03m 48s.xml">
+      <configuration name="test.ts (1)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="test_ts_(1) - 2019.04.17 at 21h 04m 24s.xml">
+      <configuration name="test.ts (1)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="test_ts_(2) - 2019.04.18 at 12h 25m 49s.xml">
+      <configuration name="test.ts (2)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="test_ts_(2) - 2019.04.18 at 12h 26m 12s.xml">
+      <configuration name="test.ts (2)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="test_ts_(2) - 2019.04.18 at 12h 29m 21s.xml">
+      <configuration name="test.ts (2)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="test_ts_(3) - 2019.04.18 at 12h 30m 07s.xml">
+      <configuration name="test.ts (3)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="test_ts_(3) - 2019.04.18 at 12h 31m 32s.xml">
+      <configuration name="test.ts (3)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="test_ts_(3) - 2019.04.18 at 12h 33m 56s.xml">
+      <configuration name="test.ts (3)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="test_ts_(3) - 2019.04.18 at 12h 37m 41s.xml">
+      <configuration name="test.ts (3)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13359000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Learn" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32902467" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5616921" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.54406583" />
+      <window_info anchor="bottom" id="Docker" order="9" />
+      <window_info anchor="bottom" id="Tool Output" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Remote Host" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/a/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/a/src/app.ts" />
+    <entry file="file://$PROJECT_DIR$/a/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/a/src/server.ts" />
+    <entry file="file://$PROJECT_DIR$/canx__tmp/admin.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx__tmp/test1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx__tmp/test_data/super.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx__tmp/node_modules/@bithana/csv/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="n#fs#0" expanded="true" />
+            <element signature="n#!!block;n#parse_csv_string#0;n#csv#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx__tmp/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx__tmp/test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#69#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx__tmp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/jest.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx__tmp/jest.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx__tmp/src/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" lean-forward="true" selection-end-line="24" />
+          <folding>
+            <element signature="n#!!block;n#load_csv#0;n#Canx#0" expanded="true" />
+            <element signature="n#!!block;n#load_csv_file#0;n#Canx#0" expanded="true" />
+            <element signature="n#!!block;n#get_permission_table#0;n#Canx#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx/test/data/super.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx/jest.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx/test/test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#212#306#0" expanded="true" />
+            <element signature="e#369#460#0" expanded="true" />
+            <element signature="e#527#697#0" expanded="true" />
+            <element signature="e#594#692#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx/src/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!block;n#can#0;n#Canx#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx/node_modules/@bithana/csv/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding>
+            <element signature="n#fs#0" expanded="true" />
+            <element signature="n#!!block;n#parse_csv_string#0;n#csv#0" expanded="true" />
+            <element signature="e#295#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx/node_modules/csv-parse/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="80" column="42" lean-forward="true" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+          <folding>
+            <element signature="e#32687#33883#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx/node_modules/csv-parse/lib/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx/node_modules/csv/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/node_modules/csv/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/node_modules/csv-parse/lib/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/node_modules/@types/node/stream.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="295" column="26" lean-forward="true" selection-start-line="295" selection-start-column="26" selection-end-line="295" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/node_modules/@types/node/fs.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="79" column="39" lean-forward="true" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/test/data/test2.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/test/test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <element signature="e#517#676#0" expanded="true" />
+            <element signature="e#744#856#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="45" selection-start-column="45" selection-end-column="45" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="34" column="60" lean-forward="true" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <element signature="n#!!doc;n#parse_csv_string#0;n#csv#0" expanded="true" />
+            <element signature="n#!!block;n#parse_csv_string#0;n#csv#0" expanded="true" />
+            <element signature="n#!!doc;n#parse_csv_file#0;n#csv#0" expanded="true" />
+            <element signature="n#!!block;n#parse_csv_file#0;n#csv#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canx/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.203" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
