@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2b655e1d-60dc-46f2-b375-2e3ebed4eebf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canx/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/canx/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canx/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/canx/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/csv/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csv/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/csv/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csv/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/csv/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/test/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/csv/test/test.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,10 +21,14 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/csv/package.json">
+        <entry file="file://$PROJECT_DIR$/csv/test/test.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="189">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding>
+                <element signature="e#546#701#0" expanded="true" />
+                <element signature="e#769#877#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,8 +49,10 @@
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/canx/readme.md" />
         <option value="$PROJECT_DIR$/canx/package.json" />
-        <option value="$PROJECT_DIR$/csv/readme.md" />
         <option value="$PROJECT_DIR$/csv/package.json" />
+        <option value="$PROJECT_DIR$/csv/index.ts" />
+        <option value="$PROJECT_DIR$/csv/readme.md" />
+        <option value="$PROJECT_DIR$/csv/test/test.ts" />
       </list>
     </option>
   </component>
@@ -74,6 +80,19 @@
               <item name="@bithana" type="b2602c69:ProjectViewProjectNode" />
               <item name="@bithana" type="462c0819:PsiDirectoryNode" />
               <item name="csv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="@bithana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="@bithana" type="462c0819:PsiDirectoryNode" />
+              <item name="csv" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="@bithana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="@bithana" type="462c0819:PsiDirectoryNode" />
+              <item name="csv" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -163,18 +182,18 @@
       <updated>1555563327837</updated>
       <workItem from="1555563329129" duration="1243000" />
       <workItem from="1555565346497" duration="18000" />
-      <workItem from="1555565368740" duration="2473000" />
+      <workItem from="1555565368740" duration="3673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3734000" />
+    <option name="totallyTimeSpent" value="4934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -192,7 +211,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Tool Output" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4065805" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4065805" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="ANTLR Preview" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -286,11 +305,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/csv/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/test/data/test1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret selection-end-line="3" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/test/data/test2.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/csv/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="98">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="199">
+            <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -298,10 +350,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csv/package.json">
+    <entry file="file://$PROJECT_DIR$/csv/test/test.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="189">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="e#546#701#0" expanded="true" />
+            <element signature="e#769#877#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
