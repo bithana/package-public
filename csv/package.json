@@ -1,5 +1,5 @@
 {
-  "name": "@bithana/csv",
+  "name": "@mosteast/csv",
   "version": "0.0.2",
   "description": "CSV format helper",
   "main": "index.js",
