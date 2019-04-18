@@ -1,4 +1,4 @@
-import { parse_csv_string, parse_csv_file } from '../index'
+import { parse_csv_file, parse_csv_string } from '../index'
 
 const DATA1_PATH = __dirname + '/data/test1.csv'
 const DATA2_PATH = __dirname + '/data/test2.csv'
