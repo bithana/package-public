@@ -1,1 +1,1 @@
-# Packages created by bithana project team
+# Public Packages Shared Cross Mosteast teams
