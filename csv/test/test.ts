@@ -3,7 +3,7 @@ import { parse_csv_file, parse_csv_string } from '../index'
 const DATA1_PATH = __dirname + '/data/test1.csv'
 const DATA2_PATH = __dirname + '/data/test2.csv'
 
-test('Can parse csv string', async () => {
+test('should parse csv string', async () => {
   const csv_str = `a1,b1,c1
 a2,b2,c2
 a3,b3,c3
@@ -12,7 +12,7 @@ a3,b3,c3
   await expect(data).toHaveLength(3)
 })
 
-test('Can parse csv file', async () => {
+test('should parse csv file', async () => {
   const data = await parse_csv_file(DATA1_PATH)
   await expect(data).toHaveLength(3)
 })
