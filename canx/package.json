@@ -5,9 +5,9 @@
   "description": "Powerful permission management.",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest --watch"
+    "test": "npx jest"
   },
-  "author": "",
+  "author": "Hailang",
   "license": "ISC",
   "dependencies": {
     "@bithana/csv": "0.0.2",
