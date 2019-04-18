@@ -4,16 +4,16 @@ import * as fs from 'fs'
 // permission table
 let pt
 let x: Canx
-const CSV_PATH = __dirname + '/data/super.csv'
+const CSV_PATH = __dirname + '/data/super.permission'
 
-describe('Can parse permissions', () => {
+describe('should parse permissions', () => {
   beforeEach(async () => {
     x = new Canx()
     await x.load_csv_file(CSV_PATH)
     pt = x.get_permission_table()
   })
 
-  it('Should parse permission table from file', async () => {
+  it('should parse permission table from file', async () => {
     const pt = await x.load_csv_file(CSV_PATH)
     expect(pt.constructor).toBe(Array)
   })
