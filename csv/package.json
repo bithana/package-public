@@ -1,6 +1,6 @@
 {
   "name": "@bithana/csv",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "CSV format helper",
   "main": "index.js",
   "scripts": {

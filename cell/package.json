@@ -1,0 +1,22 @@
+{
+  "name": "xxx",
+  "version": "0.0.1",
+  "homepage": "https://github.com/xxx/xxx#readme",
+  "repository": "github:xxx/xxx",
+  "types": "build/xxx.d.ts",
+  "description": "xxx",
+  "main": "xxx",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "author": "Mosteast team",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.4",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.3"
+  }
+}
