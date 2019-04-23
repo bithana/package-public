@@ -1,3 +1,1 @@
-export as namespace load_env_once
-
-export function load_once(): void
+export declare function load_env_once(): void

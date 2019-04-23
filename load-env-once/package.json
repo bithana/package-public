@@ -1,6 +1,6 @@
 {
   "name": "@bithana/load-env-once",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Load .env file once",
   "main": "index.js",
   "scripts": {
