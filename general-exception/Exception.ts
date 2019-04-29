@@ -23,7 +23,7 @@ export class Exception extends Error implements Exception_Interface {
    * Whether `this` is given Exception Type
    * @param Exception_Class
    */
-  is(Exception_Class) {
+  is(Exception_Class: Function) {
     return this instanceof Exception_Class
   }
 
