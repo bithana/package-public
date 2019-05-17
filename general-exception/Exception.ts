@@ -1,6 +1,7 @@
 import { Eid, Exception_Interface, Exception_Visibility } from './type'
+import { CustomError } from 'ts-custom-error'
 
-export class Exception extends Error implements Exception_Interface {
+export class Exception extends CustomError implements Exception_Interface {
   /**
    * Exception Constructor Name
    *
@@ -15,7 +16,8 @@ export class Exception extends Error implements Exception_Interface {
     public solution?: string,
     public data?: any,
   ) {
-    super()
+    super(eid)
+    Object.setPrototypeOf(this, Exception.prototype)
     this.type = this.constructor.name
   }
 

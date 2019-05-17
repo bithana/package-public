@@ -6,5 +6,6 @@ export class External_Exception extends Exception {
 
   constructor(message: string, solution?: string, data?: any) {
     super('UNKNOWN_EXTERNAL_EXCEPTION', message, 'EXTERNAL', solution, data)
+    Object.setPrototypeOf(this, External_Exception.prototype)
   }
 }

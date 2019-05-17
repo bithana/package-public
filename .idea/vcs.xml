@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/canx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/print" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tpl-typescript-package" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tpl-typescript-package/tpl-typescript-package" vcs="Git" />
   </component>

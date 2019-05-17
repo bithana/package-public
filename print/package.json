@@ -1,31 +1,29 @@
 {
-  "name": "@bithana/general-exception",
-  "version": "1.0.36",
-  "description": "",
+  "name": "@bithana/print",
+  "version": "0.0.3",
+  "homepage": "https://github.com/xxx/xxx#readme",
+  "repository": "github:xxx/xxx",
+  "types": "build/index.d.ts",
+  "description": "xxx",
   "main": "build/index.js",
   "type": "build/index.d.ts",
   "files": [
     "build/"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx jest --coverage",
     "build": "rm -fr ./build/* && npx tsc",
     "pub": "npm version patch && npm publish --access public",
     "build_and_pub": "npm run build && npm run pub"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Mosteast team",
   "license": "ISC",
+  "dependencies": {},
   "devDependencies": {
-    "@types/jest": "^24.0.12",
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.4",
     "jest": "^24.7.1",
     "ts-jest": "^24.0.2",
-    "typescript": "^3.4.5"
-  },
-  "dependencies": {
-    "@types/node": "^11.13.8",
-    "i": "^0.3.6",
-    "npm": "^6.9.0",
-    "ts-custom-error": "^3.0.0"
+    "typescript": "^3.4.3"
   }
 }
