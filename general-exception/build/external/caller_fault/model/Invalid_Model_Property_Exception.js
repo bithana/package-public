@@ -13,7 +13,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var Invalid_Parameter_Exception_1 = require("../Invalid_Parameter_Exception");
+var Invalid_parameter_exception_1 = require("../Invalid_parameter_exception");
 var Invalid_Model_Property_Exception = /** @class */ (function (_super) {
     __extends(Invalid_Model_Property_Exception, _super);
     function Invalid_Model_Property_Exception(message, solution, data) {
@@ -23,6 +23,6 @@ var Invalid_Model_Property_Exception = /** @class */ (function (_super) {
         return _this;
     }
     return Invalid_Model_Property_Exception;
-}(Invalid_Parameter_Exception_1.Invalid_Parameter_Exception));
+}(Invalid_parameter_exception_1.Invalid_parameter_exception));
 exports.Invalid_Model_Property_Exception = Invalid_Model_Property_Exception;
 //# sourceMappingURL=Invalid_Model_Property_Exception.js.map

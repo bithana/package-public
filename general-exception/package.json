@@ -1,6 +1,6 @@
 {
   "name": "@bithana/general-exception",
-  "version": "1.0.36",
+  "version": "1.0.37",
   "description": "",
   "main": "build/index.js",
   "type": "build/index.d.ts",

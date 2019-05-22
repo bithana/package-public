@@ -36,10 +36,10 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 var _this = this;
 Object.defineProperty(exports, "__esModule", { value: true });
-var Invalid_State_Exception_1 = require("./external/callee_fault/Invalid_State_Exception");
+var Invalid_state_exception_1 = require("./external/callee_fault/Invalid_state_exception");
 it('should throw exception', function () { return __awaiter(_this, void 0, void 0, function () {
     return __generator(this, function (_a) {
-        expect(function () { throw new Invalid_State_Exception_1.Invalid_State_Exception('yo'); }).toThrow(Invalid_State_Exception_1.Invalid_State_Exception);
+        expect(function () { throw new Invalid_state_exception_1.Invalid_state_exception('yo'); }).toThrow(Invalid_state_exception_1.Invalid_state_exception);
         return [2 /*return*/];
     });
 }); });

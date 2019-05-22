@@ -14,15 +14,15 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var Exception_1 = require("../Exception");
-var External_Exception = /** @class */ (function (_super) {
-    __extends(External_Exception, _super);
-    function External_Exception(message, solution, data) {
+var External_exception = /** @class */ (function (_super) {
+    __extends(External_exception, _super);
+    function External_exception(message, solution, data) {
         var _this = _super.call(this, 'UNKNOWN_EXTERNAL_EXCEPTION', message, 'EXTERNAL', solution, data) || this;
         _this.status_code = 400;
-        Object.setPrototypeOf(_this, External_Exception.prototype);
+        Object.setPrototypeOf(_this, External_exception.prototype);
         return _this;
     }
-    return External_Exception;
+    return External_exception;
 }(Exception_1.Exception));
-exports.External_Exception = External_Exception;
-//# sourceMappingURL=External_Exception.js.map
+exports.External_exception = External_exception;
+//# sourceMappingURL=External_exception.js.map

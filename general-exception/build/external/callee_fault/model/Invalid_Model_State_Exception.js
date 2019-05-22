@@ -13,16 +13,16 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var Invalid_State_Exception_1 = require("../Invalid_State_Exception");
-var Invalid_Model_State_Exception = /** @class */ (function (_super) {
-    __extends(Invalid_Model_State_Exception, _super);
-    function Invalid_Model_State_Exception(message, solution, data) {
+var Invalid_state_exception_1 = require("../Invalid_state_exception");
+var Invalid_model_state_exception = /** @class */ (function (_super) {
+    __extends(Invalid_model_state_exception, _super);
+    function Invalid_model_state_exception(message, solution, data) {
         var _this = _super.call(this, message, solution, data) || this;
         _this.eid = 'INVALID_MODEL_STATE';
-        Object.setPrototypeOf(_this, Invalid_Model_State_Exception.prototype);
+        Object.setPrototypeOf(_this, Invalid_model_state_exception.prototype);
         return _this;
     }
-    return Invalid_Model_State_Exception;
-}(Invalid_State_Exception_1.Invalid_State_Exception));
-exports.Invalid_Model_State_Exception = Invalid_Model_State_Exception;
-//# sourceMappingURL=Invalid_Model_State_Exception.js.map
+    return Invalid_model_state_exception;
+}(Invalid_state_exception_1.Invalid_state_exception));
+exports.Invalid_model_state_exception = Invalid_model_state_exception;
+//# sourceMappingURL=Invalid_model_state_exception.js.map
