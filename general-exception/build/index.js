@@ -7,5 +7,5 @@ __export(require("./external/External_exception"));
 __export(require("./external/callee_fault/Invalid_state_exception"));
 __export(require("./external/callee_fault/model/Invalid_model_state_exception"));
 __export(require("./external/caller_fault/Invalid_parameter_exception"));
-__export(require("./external/caller_fault/model/Invalid_Model_Property_Exception"));
+__export(require("./external/caller_fault/model/Invalid_model_property_exception"));
 //# sourceMappingURL=index.js.map

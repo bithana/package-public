@@ -10,7 +10,7 @@ export class Exception extends CustomError implements Exception_Interface {
   type: string
 
   constructor(
-    public eid: Eid,
+    public eid: Eid | string,
     public message: string,
     public visibility: Exception_Visibility = 'INTERNAL',
     public solution?: string,
