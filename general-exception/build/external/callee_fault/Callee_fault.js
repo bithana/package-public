@@ -13,16 +13,13 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var Exception_1 = require("../Exception");
-var External_exception = /** @class */ (function (_super) {
-    __extends(External_exception, _super);
-    function External_exception(message, solution, data) {
-        var _this = _super.call(this, 'UNKNOWN_EXTERNAL_EXCEPTION', message, 'EXTERNAL', solution, data) || this;
-        _this.status_code = 400;
-        Object.setPrototypeOf(_this, External_exception.prototype);
-        return _this;
+var External_1 = require("../External");
+var Callee_fault = /** @class */ (function (_super) {
+    __extends(Callee_fault, _super);
+    function Callee_fault() {
+        return _super !== null && _super.apply(this, arguments) || this;
     }
-    return External_exception;
-}(Exception_1.Exception));
-exports.External_exception = External_exception;
-//# sourceMappingURL=External_exception.js.map
+    return Callee_fault;
+}(External_1.External));
+exports.Callee_fault = Callee_fault;
+//# sourceMappingURL=Callee_fault.js.map

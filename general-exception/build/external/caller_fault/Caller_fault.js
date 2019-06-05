@@ -13,16 +13,13 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var External_exception_1 = require("../External_exception");
-var Invalid_parameter_exception = /** @class */ (function (_super) {
-    __extends(Invalid_parameter_exception, _super);
-    function Invalid_parameter_exception(message, solution, data) {
-        var _this = _super.call(this, message, solution, data) || this;
-        _this.eid = 'INVALID_PARAMETER';
-        Object.setPrototypeOf(_this, Invalid_parameter_exception.prototype);
-        return _this;
+var External_1 = require("../External");
+var Caller_fault = /** @class */ (function (_super) {
+    __extends(Caller_fault, _super);
+    function Caller_fault() {
+        return _super !== null && _super.apply(this, arguments) || this;
     }
-    return Invalid_parameter_exception;
-}(External_exception_1.External_exception));
-exports.Invalid_parameter_exception = Invalid_parameter_exception;
-//# sourceMappingURL=Invalid_parameter_exception.js.map
+    return Caller_fault;
+}(External_1.External));
+exports.Caller_fault = Caller_fault;
+//# sourceMappingURL=Caller_fault.js.map

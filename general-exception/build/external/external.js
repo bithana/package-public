@@ -13,16 +13,15 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var Invalid_state_exception_1 = require("../Invalid_state_exception");
-var Invalid_model_state_exception = /** @class */ (function (_super) {
-    __extends(Invalid_model_state_exception, _super);
-    function Invalid_model_state_exception(message, solution, data) {
-        var _this = _super.call(this, message, solution, data) || this;
-        _this.eid = 'INVALID_MODEL_STATE';
-        Object.setPrototypeOf(_this, Invalid_model_state_exception.prototype);
+var E_1 = require("../E");
+var External = /** @class */ (function (_super) {
+    __extends(External, _super);
+    function External() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.status_code = 400;
         return _this;
     }
-    return Invalid_model_state_exception;
-}(Invalid_state_exception_1.Invalid_state_exception));
-exports.Invalid_model_state_exception = Invalid_model_state_exception;
-//# sourceMappingURL=Invalid_model_state_exception.js.map
+    return External;
+}(E_1.E));
+exports.External = External;
+//# sourceMappingURL=external.js.map

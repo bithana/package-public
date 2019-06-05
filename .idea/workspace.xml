@@ -2,26 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b655e1d-60dc-46f2-b375-2e3ebed4eebf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/general-exception/external/External.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general-exception/external/callee_fault/Callee_fault.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general-exception/external/caller_fault/Caller_fault.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/Exception.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/E.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/Exception.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/Exception.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/Exception.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/Exception.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_Parameter_Exception.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_Parameter_Exception.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_Parameter_Exception.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_Parameter_Exception.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/Exception.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/Exception.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/Exception.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/External_Exception.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/External_Exception.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/External_Exception.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Invalid_State_Exception.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Invalid_State_Exception.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Invalid_State_Exception.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/model/Invalid_Model_State_Exception.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/model/Invalid_Model_State_Exception.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/model/Invalid_Model_State_Exception.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_Parameter_Exception.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_Parameter_Exception.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_Parameter_Exception.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/model/Invalid_Model_Property_Exception.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/model/Invalid_Model_Property_Exception.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/model/Invalid_Model_Property_Exception.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/test.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/test.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/general-exception/build/type.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/type.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/external/External_exception.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/external/callee_fault/Invalid_state_exception.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/external/callee_fault/model/Invalid_model_state_exception.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/external/callee_fault/model/Invalid_model_state.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/external/caller_fault/Invalid_parameter_exception.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/external/caller_fault/model/Invalid_model_property_exception.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/external/caller_fault/model/Invalid_model_property.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/general-exception/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/type.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,13 +40,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/general-exception/test.ts">
+        <entry file="file://$PROJECT_DIR$/general-exception/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#67#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="34" selection-start-column="34" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -104,7 +106,6 @@
         <option value="$PROJECT_DIR$/canx/test/test.ts" />
         <option value="$PROJECT_DIR$/load-env-once/index.js" />
         <option value="$PROJECT_DIR$/load-env-once/index.d.ts" />
-        <option value="$PROJECT_DIR$/general-exception/index.ts" />
         <option value="$PROJECT_DIR$/general-exception/a.ts" />
         <option value="$PROJECT_DIR$/general-exception/tsconfig.json" />
         <option value="$PROJECT_DIR$/general-exception/external/caller_fault/Invalid_Parameter_Exception.ts" />
@@ -137,6 +138,7 @@
         <option value="$PROJECT_DIR$/general-exception/internal/Internal.ts" />
         <option value="$PROJECT_DIR$/general-exception/E.ts" />
         <option value="$PROJECT_DIR$/general-exception/test.ts" />
+        <option value="$PROJECT_DIR$/general-exception/index.ts" />
       </list>
     </option>
   </component>
@@ -255,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.should generate eid">
+  <component name="RunManager" selected="Jest.test.ts (2)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -351,9 +353,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.test.ts (2)" />
         <item itemvalue="Jest.should generate eid" />
         <item itemvalue="Jest.index.test.ts" />
-        <item itemvalue="Jest.test.ts (2)" />
         <item itemvalue="Jest.test.ts (1)" />
         <item itemvalue="Jest.should " />
       </list>
@@ -385,17 +387,11 @@
       <workItem from="1558494734325" duration="759000" />
       <workItem from="1558612995895" duration="716000" />
       <workItem from="1558704192766" duration="24000" />
-      <workItem from="1559729798701" duration="5373000" />
+      <workItem from="1559729798701" duration="5454000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="should_generate_eid - 2019.06.05 at 19h 45m 13s.xml">
-      <configuration name="should generate eid" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="should_generate_eid - 2019.06.05 at 19h 45m 50s.xml">
-      <configuration name="should generate eid" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
     <history-entry file="should_generate_eid - 2019.06.05 at 19h 46m 09s.xml">
       <configuration name="should generate eid" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
@@ -420,15 +416,21 @@
     <history-entry file="should_generate_eid - 2019.06.05 at 20h 01m 22s.xml">
       <configuration name="should generate eid" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="should_generate_eid - 2019.06.05 at 20h 02m 29s.xml">
+      <configuration name="should generate eid" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="test_ts_(2) - 2019.06.05 at 20h 02m 38s.xml">
+      <configuration name="test.ts (2)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43399000" />
+    <option name="totallyTimeSpent" value="43480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25208333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25208333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -436,7 +438,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32902467" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.53819036" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53819036" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -445,7 +447,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Tool Output" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5616921" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5616921" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32902467" />
       <window_info anchor="bottom" id="ANTLR Preview" order="13" />
       <window_info anchor="bottom" id="TypeScript" order="14" />
@@ -784,13 +786,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/general-exception/Exception_Base.ts" />
-    <entry file="file://$PROJECT_DIR$/general-exception/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/general-exception/build/external/External_exception.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -910,11 +905,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/general-exception/test.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="108">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding>
             <element signature="e#0#67#0" expanded="true" />
+            <element signature="e#311#386#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general-exception/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
         </state>
       </provider>
     </entry>
