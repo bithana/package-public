@@ -1,7 +1,7 @@
 import { Eid, Exception_Interface, Exception_Visibility } from './type';
 import { CustomError } from 'ts-custom-error';
 export declare class Exception extends CustomError implements Exception_Interface {
-    eid: Eid;
+    eid: Eid | string;
     message: string;
     visibility: Exception_Visibility;
     solution?: string;
@@ -12,7 +12,7 @@ export declare class Exception extends CustomError implements Exception_Interfac
      * @example 'External_Exception'
      */
     type: string;
-    constructor(eid: Eid, message: string, visibility?: Exception_Visibility, solution?: string, data?: any);
+    constructor(eid: Eid | string, message: string, visibility?: Exception_Visibility, solution?: string, data?: any);
     /**
      * Whether `this` is given Exception Type
      * @param Exception_Class

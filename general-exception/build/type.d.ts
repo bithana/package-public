@@ -2,7 +2,7 @@ export declare type Eid = 'INVALID_PARAMETER' | 'INVALID_PROPERTY' | 'INVALID_MO
 export declare type Exception_Visibility = 'INTERNAL' | 'EXTERNAL';
 export interface Exception_Interface {
     type: string;
-    eid: Eid;
+    eid: Eid | string;
     message: string;
     visibility: string;
     solution?: string;

@@ -14,10 +14,8 @@ export type Eid =
 export type Exception_Visibility = 'INTERNAL' | 'EXTERNAL'
 
 export interface Exception_Interface {
-  type: string
   eid: Eid | string
   message: string
-  visibility: string
   solution?: string
   data?: any
 }
