@@ -13,13 +13,13 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var External_1 = require("../External");
+var index_1 = require("../index");
 var Callee_fault = /** @class */ (function (_super) {
     __extends(Callee_fault, _super);
     function Callee_fault() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     return Callee_fault;
-}(External_1.External));
+}(index_1.External));
 exports.Callee_fault = Callee_fault;
-//# sourceMappingURL=Callee_fault.js.map
+//# sourceMappingURL=index.js.map

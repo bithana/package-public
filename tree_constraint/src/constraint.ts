@@ -1,4 +1,4 @@
-import { Invalid_argument } from '@bithana/general-exception/build/external/caller_fault/Invalid_argument'
+import { Invalid_argument } from '../../general-exception/build/internal/caller_fault/invalid_argument'
 import { Tree } from './tree'
 
 export interface Constraint_tree {
@@ -45,19 +45,21 @@ export class Constraint {
     this.tree = tree
   }
 
-  set(list: Constraint_list, value: string) {
+  set(target: Constraint_list, value: string) {
+    this.validate(target, value)
 
   }
 
-  validate(value: string): boolean {
-    const exist = Tree.find(this.tree, node => node.name === value)
-    if (exist) {
+  key_exist(target: Constraint_list, key: string) {
+    const exist = Tree.find(this.tree, node => node.name === key)
+    return exist
+  }
 
-    } else {
-      throw new Invalid_argument(`Invalid`)
+  validate(target: Constraint_list, key: string): boolean | any {
+    if (!this.key_exist(target, key)) {
+      throw new Invalid_argument(`<key> not exists.`, `There is no node called: "${key}"`)
     }
   }
-
 }
 
 const self = Constraint

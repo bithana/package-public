@@ -36,18 +36,27 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 var _this = this;
 Object.defineProperty(exports, "__esModule", { value: true });
-var Callee_fault_1 = require("./external/callee_fault/Callee_fault");
-var Invalid_model_state_1 = require("./external/callee_fault/Invalid_model_state");
+var external_1 = require("./external");
+var callee_fault_1 = require("./external/callee_fault");
+var invalid_model_state_1 = require("./external/callee_fault/invalid_model_state");
+var index_1 = require("./index");
+it('E', function () { return __awaiter(_this, void 0, void 0, function () {
+    return __generator(this, function (_a) {
+        expect(function () { throw new index_1.E('yo'); }).toThrow(index_1.E);
+        expect(function () { throw new external_1.External('yo'); }).toThrow(external_1.External);
+        return [2 /*return*/];
+    });
+}); });
 it('should throw exception', function () { return __awaiter(_this, void 0, void 0, function () {
     return __generator(this, function (_a) {
-        expect(function () { throw new Callee_fault_1.Callee_fault('yo'); }).toThrow(Callee_fault_1.Callee_fault);
+        expect(function () { throw new callee_fault_1.Callee_fault('yo'); }).toThrow(callee_fault_1.Callee_fault);
         return [2 /*return*/];
     });
 }); });
 it('should generate eid', function () { return __awaiter(_this, void 0, void 0, function () {
     var e;
     return __generator(this, function (_a) {
-        e = new Invalid_model_state_1.Invalid_model_state('yo');
+        e = new invalid_model_state_1.Invalid_model_state('yo');
         expect(e.eid).toContain('.');
         expect(e.chain.length).toBeGreaterThan(0);
         return [2 /*return*/];

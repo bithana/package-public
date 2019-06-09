@@ -40,11 +40,12 @@ export class Tree {
 
     if (child$) {
       if (_.isArray(child$)) {
-        child$.forEach(child => self.walk(child, callback$, { child_name, stop_condition }))
+        child$.forEach(child => self.walk(child, callback$, { child_name, stop_condition, key_name }))
       } else {
         for (let key in child$) {
-          child$[key_name] = key
-          self.walk(child$[key], callback$, { child_name, stop_condition })
+          const child = child$[key]
+          child[key_name] = key
+          self.walk(child, callback$, { child_name, stop_condition, key_name })
         }
       }
     }

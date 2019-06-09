@@ -13,13 +13,13 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var Callee_fault_1 = require("./Callee_fault");
+var index_1 = require("./index");
 var Invalid_state = /** @class */ (function (_super) {
     __extends(Invalid_state, _super);
     function Invalid_state() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     return Invalid_state;
-}(Callee_fault_1.Callee_fault));
+}(index_1.Callee_fault));
 exports.Invalid_state = Invalid_state;
-//# sourceMappingURL=Invalid_state.js.map
+//# sourceMappingURL=invalid_state.js.map

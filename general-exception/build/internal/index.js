@@ -13,15 +13,15 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var E_1 = require("../E");
-var External = /** @class */ (function (_super) {
-    __extends(External, _super);
-    function External() {
+var index_1 = require("../index");
+var Internal = /** @class */ (function (_super) {
+    __extends(Internal, _super);
+    function Internal() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.status_code = 400;
+        _this.status_code = 409;
         return _this;
     }
-    return External;
-}(E_1.E));
-exports.External = External;
-//# sourceMappingURL=External.js.map
+    return Internal;
+}(index_1.E));
+exports.Internal = Internal;
+//# sourceMappingURL=index.js.map
