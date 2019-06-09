@@ -2,31 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b655e1d-60dc-46f2-b375-2e3ebed4eebf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/general-exception/build/Exception.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/Exception.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/Exception.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/External_Exception.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/External_Exception.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/External_Exception.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Invalid_State_Exception.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Invalid_State_Exception.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Invalid_State_Exception.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/model/Invalid_Model_State_Exception.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/model/Invalid_Model_State_Exception.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/model/Invalid_Model_State_Exception.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_Parameter_Exception.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_Parameter_Exception.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_Parameter_Exception.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/model/Invalid_Model_Property_Exception.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/model/Invalid_Model_Property_Exception.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/model/Invalid_Model_Property_Exception.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/test.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/test.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/type.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/type.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/E.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/E.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/E.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Callee_fault.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Callee_fault.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Callee_fault.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/model/Invalid_model_state.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/model/Invalid_model_state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/model/Invalid_model_state.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Caller_fault.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Caller_fault.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Caller_fault.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/model/Invalid_model_property.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/model/Invalid_model_property.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/model/Invalid_model_property.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/external.js" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/external/external.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/external.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/external/external.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/Internal.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/Internal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/Internal.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/test.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/test.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/type.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/type.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/external/callee_fault/model/Invalid_model_state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/external/callee_fault/Invalid_model_state.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/external/caller_fault/model/Invalid_model_property.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/external/caller_fault/Invalid_model_property.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/test.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,10 +51,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/general-exception/index.ts">
+        <entry file="file://$PROJECT_DIR$/general-exception/internal/caller_fault/Invalid_argument.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
+            <state relative-caret-position="54">
+              <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -112,7 +123,6 @@
         <option value="$PROJECT_DIR$/general-exception/external/callee_fault/model/Invalid_Model_State_Exception.ts" />
         <option value="$PROJECT_DIR$/general-exception/external/callee_fault/Invalid_State_Exception.ts" />
         <option value="$PROJECT_DIR$/general-exception/external/External_Exception.ts" />
-        <option value="$PROJECT_DIR$/general-exception/package.json" />
         <option value="$PROJECT_DIR$/print/package.json" />
         <option value="$PROJECT_DIR$/print/test/test.ts" />
         <option value="$PROJECT_DIR$/print/src/index.test.ts" />
@@ -128,7 +138,6 @@
         <option value="$PROJECT_DIR$/general-exception/internal/E_internal.ts" />
         <option value="$PROJECT_DIR$/general-exception/internal/internal.ts" />
         <option value="$PROJECT_DIR$/general-exception/external/E_external.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/callee_fault/Invalid_state.ts" />
         <option value="$PROJECT_DIR$/general-exception/external/caller_fault/Invalid_parameter.ts" />
         <option value="$PROJECT_DIR$/general-exception/external/callee_fault/model/Invalid_model_state.ts" />
         <option value="$PROJECT_DIR$/general-exception/external/callee_fault/Callee_fault.ts" />
@@ -139,6 +148,17 @@
         <option value="$PROJECT_DIR$/general-exception/E.ts" />
         <option value="$PROJECT_DIR$/general-exception/test.ts" />
         <option value="$PROJECT_DIR$/general-exception/index.ts" />
+        <option value="$PROJECT_DIR$/general-exception/package.json" />
+        <option value="$PROJECT_DIR$/general-exception/external/caller_fault/Invalid_argument.ts" />
+        <option value="$PROJECT_DIR$/general-exception/external/caller_fault/Invalid_model_property.ts" />
+        <option value="$PROJECT_DIR$/general-exception/external/callee_fault/Invalid_state.ts" />
+        <option value="$PROJECT_DIR$/general-exception/external/callee_fault/Invalid_model_state.ts" />
+        <option value="$PROJECT_DIR$/tree_constraint/package.json" />
+        <option value="$PROJECT_DIR$/tree_constraint/index.ts" />
+        <option value="$PROJECT_DIR$/tree_constraint/src/tree.ts" />
+        <option value="$PROJECT_DIR$/tree_constraint/src/constraint.ts" />
+        <option value="$PROJECT_DIR$/general-exception/internal/caller_fault/Caller_fault.ts" />
+        <option value="$PROJECT_DIR$/general-exception/internal/caller_fault/Invalid_argument.ts" />
       </list>
     </option>
   </component>
@@ -157,6 +177,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,44 +201,30 @@
               <item name="@bithana" type="b2602c69:ProjectViewProjectNode" />
               <item name="@bithana" type="462c0819:PsiDirectoryNode" />
               <item name="general-exception" type="462c0819:PsiDirectoryNode" />
-              <item name="external" type="462c0819:PsiDirectoryNode" />
-              <item name="callee_fault" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="@bithana" type="b2602c69:ProjectViewProjectNode" />
-              <item name="@bithana" type="462c0819:PsiDirectoryNode" />
-              <item name="general-exception" type="462c0819:PsiDirectoryNode" />
-              <item name="external" type="462c0819:PsiDirectoryNode" />
-              <item name="callee_fault" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="@bithana" type="b2602c69:ProjectViewProjectNode" />
-              <item name="@bithana" type="462c0819:PsiDirectoryNode" />
-              <item name="general-exception" type="462c0819:PsiDirectoryNode" />
-              <item name="external" type="462c0819:PsiDirectoryNode" />
-              <item name="caller_fault" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="@bithana" type="b2602c69:ProjectViewProjectNode" />
-              <item name="@bithana" type="462c0819:PsiDirectoryNode" />
-              <item name="general-exception" type="462c0819:PsiDirectoryNode" />
-              <item name="external" type="462c0819:PsiDirectoryNode" />
-              <item name="caller_fault" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="@bithana" type="b2602c69:ProjectViewProjectNode" />
               <item name="@bithana" type="462c0819:PsiDirectoryNode" />
               <item name="general-exception" type="462c0819:PsiDirectoryNode" />
               <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="caller_fault" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="@bithana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="@bithana" type="462c0819:PsiDirectoryNode" />
+              <item name="tree_constraint" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="@bithana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="@bithana" type="462c0819:PsiDirectoryNode" />
+              <item name="tree_constraint" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,7 +232,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/general-exception" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/general-exception/internal" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
@@ -241,8 +249,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/general-exception/internal" />
+      <recent name="$PROJECT_DIR$/general-exception/external/callee_fault" />
+      <recent name="$PROJECT_DIR$/general-exception/external/caller_fault" />
       <recent name="$PROJECT_DIR$/general-exception" />
       <recent name="$PROJECT_DIR$/csv/test/data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/general-exception/external/callee_fault" />
+      <recent name="$PROJECT_DIR$/general-exception/external/caller_fault" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -387,7 +402,9 @@
       <workItem from="1558494734325" duration="759000" />
       <workItem from="1558612995895" duration="716000" />
       <workItem from="1558704192766" duration="24000" />
-      <workItem from="1559729798701" duration="5454000" />
+      <workItem from="1559729798701" duration="6634000" />
+      <workItem from="1560059300307" duration="2348000" />
+      <workItem from="1560062052411" duration="582000" />
     </task>
     <servers />
   </component>
@@ -424,7 +441,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43480000" />
+    <option name="totallyTimeSpent" value="47590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -548,29 +565,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/canx/node_modules/csv-parse/lib/index.d.ts" />
     <entry file="file://$PROJECT_DIR$/csv/test/data/default.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
           <caret selection-end-line="3" />
         </state>
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/csv/test/data/pipe_delimiter.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/csv/test/data/default_with_header.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
           <caret column="8" lean-forward="true" selection-end-line="4" />
         </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/csv/test/test.ts">
@@ -707,13 +724,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/build/external/callee_fault/model/Invalid_model_state_exception.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/general-exception/build/external/callee_fault/model/Invalid_model_state_exception.js" />
     <entry file="file://$PROJECT_DIR$/general-exception/node_modules/ts-custom-error/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -786,13 +797,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/general-exception/Exception_Base.ts" />
-    <entry file="file://$PROJECT_DIR$/general-exception/build/external/External_exception.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/general-exception/build/external/External_exception.d.ts" />
     <entry file="file://$PROJECT_DIR$/general-exception/build/type.d.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -816,23 +821,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/build/Exception.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/general-exception/build/Exception.d.ts" />
     <entry file="file://$PROJECT_DIR$/general-exception/type.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -847,41 +836,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/external/callee_fault/model/Invalid_model_state.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/external/callee_fault/Callee_fault.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/external/caller_fault/model/Invalid_model_property.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/general-exception/external/caller_fault/Caller_fault.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/external/External.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -903,21 +861,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/test.ts">
+    <entry file="file://$PROJECT_DIR$/general-exception/external/External.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general-exception/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general-exception/index.ts" />
+    <entry file="file://$PROJECT_DIR$/general-exception/external/caller_fault/Invalid_argument.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general-exception/external/caller_fault/Invalid_model_property.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general-exception/external/callee_fault/Callee_fault.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general-exception/external/callee_fault/Invalid_model_state.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general-exception/external/callee_fault/Invalid_state.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general-exception/test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding>
             <element signature="e#0#67#0" expanded="true" />
-            <element signature="e#311#386#0" expanded="true" />
+            <element signature="e#192#264#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/index.ts">
+    <entry file="file://$PROJECT_DIR$/tree_constraint/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree_constraint/src/tree.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+            <element signature="n#!!block;n#find#0;n#Tree#0" expanded="true" />
+            <element signature="e#222#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree_constraint/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree_constraint/src/constraint.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="56" column="43" lean-forward="true" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#106#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#Constraint#0" expanded="true" />
+            <element signature="n#!!block;n#load_tree#0;n#Constraint#0" expanded="true" />
+            <element signature="n#!!block;n#set#0;n#Constraint#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general-exception/internal/caller_fault/Caller_fault.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general-exception/internal/caller_fault/Invalid_argument.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
         </state>
       </provider>
     </entry>

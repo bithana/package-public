@@ -1,5 +1,5 @@
 import { Callee_fault } from './external/callee_fault/Callee_fault'
-import { Invalid_model_state } from './external/callee_fault/model/Invalid_model_state'
+import { Invalid_model_state } from './external/callee_fault/Invalid_model_state'
 
 it('should throw exception', async () => {
   expect(() => {throw new Callee_fault('yo')}).toThrow(Callee_fault)
