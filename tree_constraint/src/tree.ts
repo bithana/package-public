@@ -66,7 +66,7 @@ export class Tree {
         child.ancestor$ = child.ancestor$ || [...node.ancestor$]
         child.ancestor$.push(node)
       }
-      self.walk(child, callback$, { child_name, stop_condition, key_name })
+      self.walk(child, callback$, opt)
     }
   }
 }

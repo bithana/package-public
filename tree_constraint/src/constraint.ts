@@ -45,12 +45,26 @@ export class Constraint {
     this.tree = tree
   }
 
-  set(target: Constraint_list, value: string) {
-    this.validate(target, value)
+  set(target: Constraint_list, key: string) {
+    this.validate(target, key)
+
+    const node = this.find(key)
+
+  }
+
+  find_many(key$: string[]): Constraint_tree[] {
+    const result: Constraint_tree[] = []
+    this.walk_tree(node => {
+      if (key$.includes(node.name)) {
+        result.push(node)
+      }
+    }, { stop_condition() { result.length === key$.length } })
+
+    return result
   }
 
   walk_tree(fn, opt?: Walk_option) {
-    const def = { stop_condition: null, child_name: 'child$', key_name: 'name' }
+    const def: Walk_option = { stop_condition: null, child_name: 'child$', key_name: 'name', collect_ancestor: true }
     opt = { ...def, ...opt }
     Tree.walk(this.tree, fn, opt)
   }
