@@ -57,11 +57,10 @@ export class Constraint {
 
   set(target: Constraint_list, key: string) {
     this.validate(target, key)
-
-    // this.remove_conflict$(target, key)
+    this.uniquify(target, key)
   }
 
-  uniquify(target: Constraint_tree, key) {
+  uniquify(target: Constraint_list, key) {
     const node = this.find(key)
     Tree.up(node, it => {
       if (target.includes(it.name)) {

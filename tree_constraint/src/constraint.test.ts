@@ -66,16 +66,3 @@ it('uniquify', async () => {
   expect(list.includes('something2')).toBeTruthy()
   expect(list.includes('banned')).toBeTruthy()
 })
-// it('remove_conflict$', async () => {
-//   const list1 = ['ok_a', 'ok_b', 'banned_a']
-//
-//   row.remove_conflict$(list1, 'banned')
-//   expect(list1.includes('ok_a')).toBeFalsy()
-//   expect(list1.includes('ok_b')).toBeFalsy()
-//   expect(list1.includes('banned_a')).toBeTruthy()
-//
-//   const list2 = ['banned_a', 'banned_b']
-//   row.remove_conflict$(list1, 'ok')
-//   expect(list1.includes('banned_a')).toBeFalsy()
-//   expect(list1.includes('banned_b')).toBeFalsy()
-// })
