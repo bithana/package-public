@@ -1,5 +1,7 @@
 import { Invalid_argument } from '../../general-exception/build/internal/caller_fault/invalid_argument'
+import { dump } from '../../print/src'
 import { Constraint } from './constraint'
+import { Tree } from './tree'
 
 let row
 
@@ -7,7 +9,15 @@ beforeEach(() => {
   row = new Constraint({
     child$: {
       ok: {
-        child$: null,
+        child$: {
+          ok_a: {
+            child$: {
+              ok_b: {
+                child$: null,
+              },
+            },
+          },
+        },
         conflict$: ['banned'],
       },
       suspend: {
@@ -15,8 +25,16 @@ beforeEach(() => {
         conflict$: ['ok'],
       },
       banned: {
-        child$: null,
-        conflict$: [],
+        child$: {
+          banned_a: {
+            child$: {
+              banned_b: {
+                child$: null,
+              },
+            },
+          },
+        },
+        conflict$: ['ok'],
       },
     },
   })
@@ -38,3 +56,17 @@ it('find_many', async () => {
   expect(result.find(it => it.name === 'ok')).toBeTruthy()
   expect(result.find(it => it.name === 'banned')).toBeTruthy()
 })
+
+// it('remove_conflict$', async () => {
+//   const list1 = ['ok_a', 'ok_b', 'banned_a']
+//
+//   row.remove_conflict$(list1, 'banned')
+//   expect(list1.includes('ok_a')).toBeFalsy()
+//   expect(list1.includes('ok_b')).toBeFalsy()
+//   expect(list1.includes('banned_a')).toBeTruthy()
+//
+//   const list2 = ['banned_a', 'banned_b']
+//   row.remove_conflict$(list1, 'ok')
+//   expect(list1.includes('banned_a')).toBeFalsy()
+//   expect(list1.includes('banned_b')).toBeFalsy()
+// })

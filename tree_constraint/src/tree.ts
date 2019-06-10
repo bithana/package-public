@@ -4,15 +4,27 @@ import _ = require('lodash')
 export type Walk_option = {
   stop_condition?: Function
   child_name?: string
+  parent_name?: string
   key_name?: string
-  collect_ancestor?: boolean
+  flat_ancestor?: boolean
+  debug?: boolean
+  set_parent?: boolean
 }
 
 export class Tree {
+
+  static readonly WALK_OPTION = {
+    stop_condition: null,
+    child_name: 'child$',
+    parent_name: 'parent',
+    key_name: '$_key',
+    debug: false,
+  }
+
   static find(node: Constraint_tree, condition: (it) => boolean, opt?: Walk_option): Constraint_tree {
     let exist
 
-    self.walk(node, it => {
+    self.down(node, it => {
       if (condition(it)) {
         exist = it
       }
@@ -24,26 +36,76 @@ export class Tree {
     return exist
   }
 
-  static walk(node: Constraint_tree,
-              callback$: Function[] | Function | any = [],
-              opt?: Walk_option) {
+  /**
+   * Walk up
+   */
+  static up(node: Constraint_tree,
+            callback$: Function[] | Function | any = [],
+            opt?: Walk_option,
+            debug_info?) {
+    opt = { ...this.WALK_OPTION, ...opt }
 
-    const def = { stop_condition: null, child_name: 'child$', key_name: '$_key' }
-
-    opt = { ...def, ...opt }
-    const { stop_condition, child_name, key_name, collect_ancestor } = opt
+    const parent_name = opt.parent_name
 
     if (_.isFunction(callback$)) {
       callback$ = [callback$]
     }
 
-    callback$.forEach(fn => fn(node))
+    callback$.forEach(fn => fn && fn(node))
+
+    const parent = node[parent_name]
+    if (parent) {
+      this.up(parent, callback$, opt)
+    }
+  }
+
+  static set_parent(node: Constraint_tree, opt?: Walk_option) {
+    opt = { set_parent: true, ...opt }
+    self.down(node, null, opt)
+  }
+
+  /**
+   * Walk down
+   * @param node
+   * @param callback$
+   * @param opt
+   * @param debug_info
+   */
+  static down(node: Constraint_tree,
+              callback$: Function[] | Function | any = [],
+              opt?: Walk_option,
+              debug_info?) {
+
+    opt = { ...this.WALK_OPTION, ...opt }
+
+    const { stop_condition, child_name, parent_name, key_name, flat_ancestor, debug, set_parent } = opt
+
+    if (debug) {
+      debug_info = debug_info || {
+        count: 0,
+        start_at: null,
+        end_at: null,
+      }
+
+      debug_info.count++
+      if (!debug_info.start_at) {
+        debug_info.start_at = Date.now()
+      }
+    }
+
+    if (_.isFunction(callback$)) {
+      callback$ = [callback$]
+    }
+
+    if (callback$) {
+      callback$.forEach(fn => fn && fn(node))
+    }
 
     if (stop_condition && stop_condition(node)) {
       return
     }
 
-    if (collect_ancestor) {
+    if (flat_ancestor) {
       node.ancestor$ = node.ancestor$ || []
     }
 
@@ -57,16 +119,26 @@ export class Tree {
           const child = child$[key]
           child[key_name] = key
           single_walk(child)
+          if (debug) {
+            debug_info.end_at = Date.now()
+            // @ts-ignore
+            self.down.debug_info = debug_info
+          }
         }
       }
     }
 
     function single_walk(child) {
-      if (collect_ancestor) {
+      if (flat_ancestor) {
         child.ancestor$ = child.ancestor$ || [...node.ancestor$]
         child.ancestor$.push(node)
       }
-      self.walk(child, callback$, opt)
+
+      if (set_parent) {
+        child[parent_name] = node
+      }
+
+      self.down(child, callback$, opt, debug_info)
     }
   }
 }
