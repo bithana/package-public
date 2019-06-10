@@ -83,21 +83,6 @@ export class Constraint {
     target.push(key)
   }
 
-  // remove_conflict$(target: Constraint_list, key: string) {
-  //   const node = this.find(key)
-  //   const conflict$ = node.conflict$
-  //   const conflict_node$ = this.find_many(conflict$)
-  //
-  //   conflict_node$.forEach(node => {
-  //     Tree.down(node, child => {
-  //       const name = child.name
-  //       if (target.includes(name)) {
-  //         target.splice(target.indexOf(name), 1)
-  //       }
-  //     }, self.WALK_OPTION)
-  //   })
-  // }
-
   find_many(key$: string[]): Constraint_tree[] {
     const result: Constraint_tree[] = []
     this.walk_tree_down(node => {
@@ -113,18 +98,6 @@ export class Constraint {
     opt = { ...self.WALK_OPTION, ...opt }
     Tree.down(this.tree, fn, opt)
   }
-
-  // key_has_conflict(target: Constraint_list, value: string) {
-  //   const conflict$ = []
-  //
-  //   this.walk_tree_down((node: Constraint_tree) => {
-  //     if (node.conflict$ && node.conflict$.includes(value)) {
-  //       conflict$.push(node.name)
-  //     }
-  //   })
-  //
-  //   return conflict$.length ? conflict$ : false
-  // }
 
   exist(key: string): boolean {
     return !!this.find(key)

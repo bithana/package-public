@@ -1,7 +1,5 @@
 import { Invalid_argument } from '../../general-exception/build/internal/caller_fault/invalid_argument'
-import { dump } from '../../print/src'
 import { Constraint } from './constraint'
-import { Tree } from './tree'
 
 let row
 
