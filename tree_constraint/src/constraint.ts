@@ -1,5 +1,5 @@
 import { Invalid_argument } from '../../general-exception/build/internal/caller_fault/invalid_argument'
-import { Tree } from './tree'
+import { Tree, Walk_option } from './tree'
 
 export interface Constraint_tree {
   child$: { [key: string]: Constraint_tree } | null
@@ -47,18 +47,40 @@ export class Constraint {
 
   set(target: Constraint_list, value: string) {
     this.validate(target, value)
-
   }
 
-  key_exist(target: Constraint_list, key: string) {
-    const exist = Tree.find(this.tree, node => node.name === key)
-    return exist
+  walk_tree(fn, opt?: Walk_option) {
+    const def = { stop_condition: null, child_name: 'child$', key_name: 'name' }
+    opt = { ...def, ...opt }
+    Tree.walk(this.tree, fn, opt)
+  }
+
+  key_has_conflict(target: Constraint_list, value: string) {
+    const conflict$ = []
+
+    this.walk_tree((node: Constraint_tree) => {
+      if (node.conflict$ && node.conflict$.includes(value)) {
+        conflict$.push(node.name)
+      }
+    })
+
+    return conflict$.length ? conflict$ : false
+  }
+
+  exist(key: string): boolean {
+    return !!this.find(key)
+  }
+
+  find(key): any {
+    return Tree.find(this.tree, node => node.name === key, { key_name: 'name' })
   }
 
   validate(target: Constraint_list, key: string): boolean | any {
-    if (!this.key_exist(target, key)) {
+    if (!this.exist(key)) {
       throw new Invalid_argument(`<key> not exists.`, `There is no node called: "${key}"`)
     }
+
+    return true
   }
 }
 

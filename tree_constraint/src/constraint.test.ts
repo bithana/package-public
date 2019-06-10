@@ -8,13 +8,21 @@ it('validate', async () => {
         child$: null,
         conflict$: ['banned'],
       },
-      banned: {
+      suspend: {
         child$: null,
         conflict$: ['ok'],
+      },
+      banned: {
+        child$: null,
+        conflict$: [],
       },
     },
   })
 
-  expect(row.validate('ok')).toBeTruthy()
-  expect(() => row.validate('not_exist')).toThrow(Invalid_argument)
+  expect(row.validate(['banned'], 'ok')).toBeTruthy()
+  expect(() => row.validate(['banned'], 'not_exist')).toThrow(Invalid_argument)
+
+  const conflict$ = row.key_has_conflict(['banned'], 'ok')
+  expect(conflict$).toHaveLength(1)
+  expect(conflict$[0]).toBe('banned')
 })
