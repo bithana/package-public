@@ -83,20 +83,7 @@ export class Tree {
 
     opt = { ...this.WALK_OPTION, ...opt }
 
-    const { stop_condition, child_name, parent_name, key_name, flat_ancestor, debug, set_parent } = opt
-
-    if (debug) {
-      debug_info = debug_info || {
-        count: 0,
-        start_at: null,
-        end_at: null,
-      }
-
-      debug_info.count++
-      if (!debug_info.start_at) {
-        debug_info.start_at = Date.now()
-      }
-    }
+    const { stop_condition, child_name, parent_name, key_name, flat_ancestor, set_parent } = opt
 
     if (_.isFunction(callback$)) {
       callback$ = [callback$]
@@ -124,11 +111,6 @@ export class Tree {
           const child = child$[key]
           child[key_name] = key
           single_walk(child)
-          if (debug) {
-            debug_info.end_at = Date.now()
-            // @ts-ignore
-            self.down.debug_info = debug_info
-          }
         }
       }
     }

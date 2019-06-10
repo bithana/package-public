@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b655e1d-60dc-46f2-b375-2e3ebed4eebf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree_constraint/src/constraint.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tree_constraint/src/constraint.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree_constraint/src/tree.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tree_constraint/src/tree.ts" afterDir="false" />
     </list>
@@ -17,17 +18,15 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tree_constraint/src/constraint.ts">
+        <entry file="file://$PROJECT_DIR$/tree_constraint/src/constraint.test.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="70" column="58" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+            <state relative-caret-position="172">
+              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
               <folding>
                 <element signature="e#0#103#0" expanded="true" />
-                <element signature="n#!!block;n#constructor#0;n#Constraint#0" expanded="true" />
-                <element signature="n#!!block;n#load_tree#0;n#Constraint#0" expanded="true" />
-                <element signature="n#!!block;n#set#0;n#Constraint#0" expanded="true" />
-                <element signature="e#1925#2000#0" expanded="true" />
-                <element signature="n#!!block;n#uniquify#0;n#Constraint#0" expanded="true" />
+                <element signature="e#242#816#0" expanded="true" />
+                <element signature="e#1384#1719#0" expanded="true" />
+                <element signature="e#1743#1909#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,9 +138,9 @@
         <option value="$PROJECT_DIR$/general-exception/external/caller_fault/index.ts" />
         <option value="$PROJECT_DIR$/general-exception/test.ts" />
         <option value="$PROJECT_DIR$/tree_constraint/src/tree.test.ts" />
-        <option value="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" />
         <option value="$PROJECT_DIR$/tree_constraint/src/tree.ts" />
         <option value="$PROJECT_DIR$/tree_constraint/src/constraint.ts" />
+        <option value="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" />
       </list>
     </option>
   </component>
@@ -269,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.uniquify">
+  <component name="RunManager" selected="Jest.constraint.test.ts">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -289,6 +288,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="constraint.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/tree_constraint/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/tree_constraint" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" />
+      <method v="2" />
+    </configuration>
     <configuration name="down" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -299,6 +308,19 @@
       <test-file value="$PROJECT_DIR$/tree_constraint/src/tree.test.ts" />
       <test-names>
         <test-name value="down" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="is" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/tree_constraint/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/tree_constraint" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" />
+      <test-names>
+        <test-name value="is" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -328,32 +350,6 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="up" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/tree_constraint/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$/tree_constraint" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" />
-      <test-names>
-        <test-name value="up" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="walk" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/tree_constraint/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$/tree_constraint" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/tree_constraint/src/tree.test.ts" />
-      <test-names>
-        <test-name value="walk" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -374,11 +370,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.constraint.test.ts" />
+        <item itemvalue="Jest.is" />
         <item itemvalue="Jest.uniquify" />
         <item itemvalue="Jest.up (1)" />
         <item itemvalue="Jest.down" />
-        <item itemvalue="Jest.walk" />
-        <item itemvalue="Jest.up" />
       </list>
     </recent_temporary>
   </component>
@@ -410,44 +406,44 @@
       <workItem from="1558704192766" duration="24000" />
       <workItem from="1559729798701" duration="6634000" />
       <workItem from="1560059300307" duration="2348000" />
-      <workItem from="1560062052411" duration="20127000" />
+      <workItem from="1560062052411" duration="21212000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="uniquify - 2019.06.10 at 21h 17m 12s.xml">
-      <configuration name="uniquify" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="is - 2019.06.10 at 21h 48m 40s.xml">
+      <configuration name="is" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="uniquify - 2019.06.10 at 21h 18m 25s.xml">
-      <configuration name="uniquify" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="is - 2019.06.10 at 21h 48m 51s.xml">
+      <configuration name="is" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="uniquify - 2019.06.10 at 21h 18m 38s.xml">
-      <configuration name="uniquify" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="is - 2019.06.10 at 21h 48m 55s.xml">
+      <configuration name="is" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="uniquify - 2019.06.10 at 21h 20m 30s.xml">
-      <configuration name="uniquify" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="is - 2019.06.10 at 21h 49m 04s.xml">
+      <configuration name="is" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="uniquify - 2019.06.10 at 21h 25m 44s.xml">
-      <configuration name="uniquify" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="is - 2019.06.10 at 21h 49m 35s.xml">
+      <configuration name="is" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="uniquify - 2019.06.10 at 21h 26m 16s.xml">
-      <configuration name="uniquify" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="is - 2019.06.10 at 21h 50m 37s.xml">
+      <configuration name="is" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="uniquify - 2019.06.10 at 21h 27m 17s.xml">
-      <configuration name="uniquify" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="is - 2019.06.10 at 21h 51m 10s.xml">
+      <configuration name="is" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="uniquify - 2019.06.10 at 21h 27m 28s.xml">
-      <configuration name="uniquify" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="is - 2019.06.10 at 21h 52m 29s.xml">
+      <configuration name="is" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="uniquify - 2019.06.10 at 21h 27m 56s.xml">
-      <configuration name="uniquify" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="is - 2019.06.10 at 21h 53m 28s.xml">
+      <configuration name="is" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="uniquify - 2019.06.10 at 21h 29m 08s.xml">
-      <configuration name="uniquify" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="constraint_test_ts - 2019.06.10 at 21h 53m 32s.xml">
+      <configuration name="constraint.test.ts" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67135000" />
+    <option name="totallyTimeSpent" value="68220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -461,7 +457,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32902467" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4465335" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4465335" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -470,7 +466,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Tool Output" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3572268" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3572268" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32902467" />
       <window_info anchor="bottom" id="ANTLR Preview" order="13" />
       <window_info anchor="bottom" id="TypeScript" order="14" />
@@ -975,27 +971,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tree_constraint/src/constraint.test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="63" column="43" lean-forward="true" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#103#0" expanded="true" />
-            <element signature="e#242#816#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tree_constraint/src/tree.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+        <state relative-caret-position="282">
+          <caret line="75" column="15" lean-forward="true" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
             <element signature="n#!!block;n#find#0;n#Tree#0" expanded="true" />
             <element signature="n#!!doc;n#up#0;n#Tree#0" expanded="true" />
+            <element signature="n#!!block;n#up#0;n#Tree#0" expanded="true" />
             <element signature="n#!!block;n#set_parent#0;n#Tree#0" expanded="true" />
-            <element signature="n#!!doc;n#down#0;n#Tree#0" expanded="true" />
             <element signature="n#!!block;n#down#0;n#Tree#0" expanded="true" />
             <element signature="n#!!block;n#single_walk#0;n#!!block;n#down#0;n#Tree#0" expanded="true" />
           </folding>
@@ -1004,15 +989,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tree_constraint/src/constraint.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="70" column="58" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+        <state relative-caret-position="157">
+          <caret line="116" column="2" selection-start-line="116" selection-end-line="127" />
           <folding>
             <element signature="e#0#103#0" expanded="true" />
             <element signature="n#!!block;n#constructor#0;n#Constraint#0" expanded="true" />
             <element signature="n#!!block;n#load_tree#0;n#Constraint#0" expanded="true" />
             <element signature="n#!!block;n#set#0;n#Constraint#0" expanded="true" />
-            <element signature="e#1925#2000#0" expanded="true" />
+            <element signature="n#!!block;n#is#0;n#Constraint#0" expanded="true" />
+            <element signature="e#1927#2002#0" expanded="true" />
             <element signature="n#!!block;n#uniquify#0;n#Constraint#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree_constraint/src/constraint.test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#103#0" expanded="true" />
+            <element signature="e#242#816#0" expanded="true" />
+            <element signature="e#1384#1719#0" expanded="true" />
+            <element signature="e#1743#1909#0" expanded="true" />
           </folding>
         </state>
       </provider>

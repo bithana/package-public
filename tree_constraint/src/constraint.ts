@@ -64,7 +64,7 @@ export class Constraint {
     const node = this.find(key)
     let result = false
 
-    Tree.up(node, it => {
+    Tree.down(node, it => {
       if (target.includes(it.name)) {
         result = true
       }
@@ -114,17 +114,17 @@ export class Constraint {
     Tree.down(this.tree, fn, opt)
   }
 
-  key_has_conflict(target: Constraint_list, value: string) {
-    const conflict$ = []
-
-    this.walk_tree_down((node: Constraint_tree) => {
-      if (node.conflict$ && node.conflict$.includes(value)) {
-        conflict$.push(node.name)
-      }
-    })
-
-    return conflict$.length ? conflict$ : false
-  }
+  // key_has_conflict(target: Constraint_list, value: string) {
+  //   const conflict$ = []
+  //
+  //   this.walk_tree_down((node: Constraint_tree) => {
+  //     if (node.conflict$ && node.conflict$.includes(value)) {
+  //       conflict$.push(node.name)
+  //     }
+  //   })
+  //
+  //   return conflict$.length ? conflict$ : false
+  // }
 
   exist(key: string): boolean {
     return !!this.find(key)

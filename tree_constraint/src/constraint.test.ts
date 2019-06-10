@@ -45,9 +45,9 @@ it('validate', async () => {
   expect(row.validate(['banned'], 'ok')).toBeTruthy()
   expect(() => row.validate(['banned'], 'not_exist')).toThrow(Invalid_argument)
 
-  const conflict$ = row.key_has_conflict(['banned'], 'ok')
-  expect(conflict$).toHaveLength(1)
-  expect(conflict$[0]).toBe('banned')
+  // const conflict$ = row.key_has_conflict(['banned'], 'ok')
+  // expect(conflict$).toHaveLength(1)
+  // expect(conflict$[0]).toBe('banned')
 })
 
 it('find_many', async () => {
@@ -65,4 +65,11 @@ it('uniquify', async () => {
   expect(list.includes('something1')).toBeTruthy()
   expect(list.includes('something2')).toBeTruthy()
   expect(list.includes('banned')).toBeTruthy()
+})
+
+it('is', async () => {
+  const list = ['ok_a', 'ok_b']
+  expect(row.is(list, 'ok_a')).toBeTruthy()
+  expect(row.is(list, 'ok')).toBeTruthy()
+  expect(row.is(list, 'banned')).toBeFalsy()
 })
