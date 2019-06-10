@@ -60,6 +60,19 @@ export class Constraint {
     this.uniquify(target, key)
   }
 
+  is(target: Constraint_list, key: string): boolean {
+    const node = this.find(key)
+    let result = false
+
+    Tree.up(node, it => {
+      if (target.includes(it.name)) {
+        result = true
+      }
+    }, { stop_condition: it => target.includes(it.name) })
+
+    return result
+  }
+
   uniquify(target: Constraint_list, key) {
     const node = this.find(key)
     Tree.up(node, it => {

@@ -53,7 +53,12 @@ export class Tree {
 
     callback$.forEach(fn => fn && fn(node))
 
+    if (opt.stop_condition && opt.stop_condition(node)) {
+      return
+    }
+
     const parent = node[parent_name]
+
     if (parent) {
       this.up(parent, callback$, opt)
     }
