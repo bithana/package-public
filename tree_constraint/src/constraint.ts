@@ -48,6 +48,7 @@ export class Constraint {
 
   constructor(tree?: Constraint_tree) {
     tree && this.load_tree(tree)
+    Tree.set_parent(this.tree, self.WALK_OPTION)
   }
 
   load_tree(tree: Constraint_tree) {
@@ -60,9 +61,14 @@ export class Constraint {
     // this.remove_conflict$(target, key)
   }
 
-  uniquefy(target, key) {
+  uniquify(target: Constraint_tree, key) {
     const node = this.find(key)
-
+    Tree.up(node, it => {
+      if (target.includes(it.name)) {
+        target.splice(target.indexOf(it.name), 1)
+      }
+    })
+    target.push(key)
   }
 
   // remove_conflict$(target: Constraint_list, key: string) {
@@ -82,7 +88,7 @@ export class Constraint {
 
   find_many(key$: string[]): Constraint_tree[] {
     const result: Constraint_tree[] = []
-    this.walk_tree(node => {
+    this.walk_tree_down(node => {
       if (key$.includes(node.name)) {
         result.push(node)
       }
@@ -91,16 +97,15 @@ export class Constraint {
     return result
   }
 
-  walk_tree(fn, opt?: Walk_option) {
-    const def: Walk_option = self.WALK_OPTION
-    opt = { ...def, ...opt }
+  walk_tree_down(fn, opt?: Walk_option) {
+    opt = { ...self.WALK_OPTION, ...opt }
     Tree.down(this.tree, fn, opt)
   }
 
   key_has_conflict(target: Constraint_list, value: string) {
     const conflict$ = []
 
-    this.walk_tree((node: Constraint_tree) => {
+    this.walk_tree_down((node: Constraint_tree) => {
       if (node.conflict$ && node.conflict$.includes(value)) {
         conflict$.push(node.name)
       }

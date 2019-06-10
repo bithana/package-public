@@ -57,6 +57,15 @@ it('find_many', async () => {
   expect(result.find(it => it.name === 'banned')).toBeTruthy()
 })
 
+it('uniquify', async () => {
+  const list = ['ok', 'ok_a', 'something1', 'something2', 'banned']
+  row.uniquify(list, 'ok_b')
+  expect(list.includes('ok')).toBeFalsy()
+  expect(list.includes('ok_a')).toBeFalsy()
+  expect(list.includes('something1')).toBeTruthy()
+  expect(list.includes('something2')).toBeTruthy()
+  expect(list.includes('banned')).toBeTruthy()
+})
 // it('remove_conflict$', async () => {
 //   const list1 = ['ok_a', 'ok_b', 'banned_a']
 //
