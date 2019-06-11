@@ -1,4 +1,4 @@
-import { Invalid_argument } from '../../general-exception/build/internal/caller_fault/invalid_argument'
+import { Invalid_argument } from '@bithana/general-exception/build/internal/caller_fault/invalid_argument'
 import { Tree, Walk_option } from './tree'
 
 export interface Constraint_tree {

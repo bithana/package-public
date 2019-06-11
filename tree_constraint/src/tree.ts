@@ -81,6 +81,10 @@ export class Tree {
               opt?: Walk_option,
               debug_info?) {
 
+    if (!node) {
+      return
+    }
+
     opt = { ...this.WALK_OPTION, ...opt }
 
     const { stop_condition, child_name, parent_name, key_name, flat_ancestor, set_parent } = opt
@@ -105,12 +109,14 @@ export class Tree {
 
     if (child$) {
       if (_.isArray(child$)) {
-        child$.forEach(child => single_walk(child))
+        child$.forEach(child => child && single_walk(child))
       } else {
         for (let key in child$) {
           const child = child$[key]
-          child[key_name] = key
-          single_walk(child)
+          if (child) {
+            child[key_name] = key
+            single_walk(child)
+          }
         }
       }
     }

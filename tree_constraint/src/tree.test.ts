@@ -1,4 +1,3 @@
-import { dump } from '../../print/src'
 import { Constraint_tree } from './constraint'
 import { Tree } from './tree'
 

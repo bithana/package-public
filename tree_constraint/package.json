@@ -1,11 +1,11 @@
 {
   "name": "@bithana/tree-constraint",
-  "version": "0.0.3",
+  "version": "0.0.19",
   "homepage": "https://github.com/xxx/xxx#readme",
   "repository": "github:xxx/xxx",
   "description": "xxx",
   "main": "build/index.js",
-  "type": "build/index.d.ts",
+  "types": "build/index.d.ts",
   "files": [
     "build/"
   ],

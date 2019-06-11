@@ -6,7 +6,6 @@
   "types": "build/index.d.ts",
   "description": "xxx",
   "main": "build/index.js",
-  "type": "build/index.d.ts",
   "files": [
     "build/"
   ],

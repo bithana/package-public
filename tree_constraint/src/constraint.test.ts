@@ -1,4 +1,4 @@
-import { Invalid_argument } from '../../general-exception/build/internal/caller_fault/invalid_argument'
+import { Invalid_argument } from '@bithana/general-exception/build/internal/caller_fault/invalid_argument'
 import { Constraint } from './constraint'
 
 let row
@@ -70,4 +70,6 @@ it('is', async () => {
   expect(row.is(list, 'ok_a')).toBeTruthy()
   expect(row.is(list, 'ok')).toBeTruthy()
   expect(row.is(list, 'banned')).toBeFalsy()
+
+  expect(row.is(['a', 'b'], 'a')).toBeFalsy()
 })
