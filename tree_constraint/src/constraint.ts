@@ -73,10 +73,75 @@ export class Constraint {
     return result
   }
 
-  up_collect(list: Constraint_list, pick$: string[], fn?: Function) {
+  /**
+   * Collect certain keys from leaves (a set of nodes and their ancestors)
+   *
+   * @example
+   * - grandpa
+   *     - a: 1
+   *     - b: 2
+   *     - father
+   *         - a: 3
+   *         - b: 4
+   *         - kid
+   *             - a: 5
+   *             - b: 6
+   *
+   * Collect all node's property `a` from `kid` node
+   * ```
+   * up_collect(['kid'], ['a'])
+   * // { a: [5, 3, 1] }
+   * ```
+   *
+   * Collect `a` from `father` node
+   * ```
+   * up_collect(['father'], ['a'])
+   * // { a: [3, 1] }
+   * ```
+   * @example Collect from multiple leaves
+   *
+   * - grandpa
+   *     - a: 1
+   *     - b: 2
+   *     - father
+   *         - a: 3
+   *         - b: 4
+   *         - kid
+   *             - a: 5
+   *             - b: 6
+   * - grandpa2
+   *     - a: 11
+   *     - b: 12
+   *     - father2
+   *         - a: 13
+   *         - b: 14
+   *         - kid2
+   *             - a: 15
+   *             - b: 16
+   *
+   * Collect all node's property `a` from `father` and `father2` node
+   * ```
+   * up_collect(['father', 'father2'], ['a'])
+   * // { a: [3, 1, 13, 11] }
+   * ```
+   *
+   * Collect all node's property `a`, `b` from `father` and `father2` node
+   * ```
+   * up_collect(['father', 'father2'], ['a', 'b'])
+   * // {
+   * //   a: [3, 1, 13, 11],
+   * //   b: [4, 2, 14, 12]
+   * // }
+   * ```
+   *
+   * @param from_node$
+   * @param pick$
+   * @param fn Custom action for each collect
+   */
+  up_collect(from_node$: Constraint_list, pick$: string[], fn?: (collected_prop: any[], it: any) => void) {
     const result: { [key: string]: any[] } = {}
 
-    list.forEach(key => {
+    from_node$.forEach(key => {
       this.walk_tree_up(key, it => {
         pick$.forEach(pick => {
           const exist = it[pick]
