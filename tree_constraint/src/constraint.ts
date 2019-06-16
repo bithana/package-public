@@ -1,5 +1,6 @@
 import { Invalid_argument } from '@bithana/general-exception/build/internal/caller_fault/invalid_argument'
 import { Tree, Walk_option } from './tree'
+import _ = require('lodash')
 
 export interface Constraint_tree {
   child$: { [key: string]: Constraint_tree } | null
@@ -144,7 +145,7 @@ export class Constraint {
     from_node$.forEach(key => {
       this.walk_tree_up(key, it => {
         pick$.forEach(pick => {
-          const exist = it[pick]
+          const exist = _.get(it, pick)
           if (exist) {
             const arr = result[pick] = result[pick] || []
             if (!arr.includes(exist)) {
