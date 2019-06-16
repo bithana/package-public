@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tree_constraint/src/constraint.test.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="158" column="30" selection-start-line="158" selection-start-column="30" selection-end-line="158" selection-end-column="30" />
+            <state relative-caret-position="416">
+              <caret line="170" selection-start-line="170" selection-end-line="170" />
               <folding>
                 <element signature="e#0#106#0" expanded="true" />
               </folding>
@@ -161,7 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,6 +183,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -371,44 +371,45 @@
       <workItem from="1560668465359" duration="20000" />
       <workItem from="1560676022492" duration="4658000" />
       <workItem from="1560680996627" duration="1240000" />
-      <workItem from="1560683297711" duration="1546000" />
+      <workItem from="1560683297711" duration="1563000" />
+      <workItem from="1560684907789" duration="2099000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="up_collect - 2019.06.16 at 18h 44m 53s.xml">
+    <history-entry file="up_collect - 2019.06.16 at 19h 34m 10s.xml">
       <configuration name="up_collect" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="up_collect - 2019.06.16 at 18h 45m 25s.xml">
-      <configuration name="up_collect" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="up_collect - 2019.06.16 at 18h 45m 36s.xml">
-      <configuration name="up_collect" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="up_collect - 2019.06.16 at 18h 46m 35s.xml">
-      <configuration name="up_collect" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="up_collect - 2019.06.16 at 18h 46m 51s.xml">
-      <configuration name="up_collect" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="up_collect - 2019.06.16 at 18h 47m 05s.xml">
-      <configuration name="up_collect" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="up_collect - 2019.06.16 at 19h 16m 40s.xml">
-      <configuration name="up_collect" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="up_collect - 2019.06.16 at 19h 17m 51s.xml">
-      <configuration name="up_collect" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="constraint_test_ts - 2019.06.16 at 19h 32m 54s.xml">
+    <history-entry file="constraint_test_ts - 2019.06.16 at 20h 00m 52s.xml">
       <configuration name="constraint.test.ts" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="up_collect - 2019.06.16 at 19h 33m 58s.xml">
+    <history-entry file="constraint_test_ts - 2019.06.16 at 20h 02m 10s.xml">
+      <configuration name="constraint.test.ts" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="constraint_test_ts - 2019.06.16 at 20h 02m 33s.xml">
+      <configuration name="constraint.test.ts" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="constraint_test_ts - 2019.06.16 at 20h 02m 46s.xml">
+      <configuration name="constraint.test.ts" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="constraint_test_ts - 2019.06.16 at 20h 03m 44s.xml">
+      <configuration name="constraint.test.ts" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="constraint_test_ts - 2019.06.16 at 20h 06m 19s.xml">
+      <configuration name="constraint.test.ts" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="up_collect - 2019.06.16 at 20h 08m 26s.xml">
+      <configuration name="up_collect" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="up_collect - 2019.06.16 at 20h 08m 57s.xml">
+      <configuration name="up_collect" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="up_collect - 2019.06.16 at 20h 09m 26s.xml">
       <configuration name="up_collect" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81338000" />
+    <option name="totallyTimeSpent" value="83454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1002,27 +1003,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tree_constraint/src/constraint.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="148" column="19" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
+        <state relative-caret-position="250">
+          <caret line="237" column="35" lean-forward="true" selection-start-line="237" selection-start-column="35" selection-end-line="237" selection-end-column="35" />
           <folding>
             <element signature="e#0#106#0" expanded="true" />
+            <element signature="n#!!doc;n#collector#0;n#!!block;n#Collect_opt#0" expanded="true" />
+            <element signature="n#!!doc;n#rename_map#0;n#!!block;n#Collect_opt#0" expanded="true" />
+            <element signature="n#!!doc;n#custom_structure#0;n#!!block;n#Collect_opt#0" expanded="true" />
             <element signature="n#!!block;n#constructor#0;n#Constraint#0" expanded="true" />
             <element signature="n#!!block;n#load_tree#0;n#Constraint#0" expanded="true" />
             <element signature="n#!!block;n#set#0;n#Constraint#0" expanded="true" />
             <element signature="n#!!block;n#is#0;n#Constraint#0" expanded="true" />
             <element signature="n#!!doc;n#up_collect#0;n#Constraint#0" expanded="true" />
-            <element signature="n#!!block;n#up_collect#0;n#Constraint#0" expanded="true" />
-            <element signature="e#4048#4471#0" expanded="true" />
-            <element signature="e#4085#4464#0" expanded="true" />
-            <element signature="e#4117#4455#0" expanded="true" />
+            <element signature="n#!!block;n#default_collector#0;n#!!block;n#up_collect#0;n#Constraint#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tree_constraint/src/constraint.test.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="158" column="30" selection-start-line="158" selection-start-column="30" selection-end-line="158" selection-end-column="30" />
+        <state relative-caret-position="416">
+          <caret line="170" selection-start-line="170" selection-end-line="170" />
           <folding>
             <element signature="e#0#106#0" expanded="true" />
           </folding>

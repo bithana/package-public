@@ -36,8 +36,66 @@ export interface Constraint_tree {
 export type Constraint_list = string[]
 
 type Collect_opt = {
-  collector?: (collected_prop: any[], it: any) => void,
+  /**
+   * How to push to result array
+   *
+   * @example
+   * Default result:
+   * ```
+   * {
+   *   a: [1, 2, 3, 4],
+   *   b: [5, 6, 7, 8]
+   * }
+   * ```
+   *
+   * You only want odd numbers
+   * ```
+   * {
+   *   collector(it, arr) {
+   *    // arr is one of the arrays in result map.
+   *    it % 2 && arr.push(it)
+   *   }
+   *   ...
+   * }
+   *
+   * Results:
+   * {
+   *   a: [1, 3],
+   *   b: [5, 7]
+   * }
+   * @param collected_prop
+   * @param it
+   */
+  collector?: (it: any, collected_prop: any[], key?: string) => void,
+  /**
+   * Rename each `pick$`
+   *
+   * @example Rename picks
+   * ```
+   * {
+   *   'a.b.c.d': 'd',
+   *   'a.b.c.d2': 'd2',
+   *   'a.b.c.d3': 'd3',
+   * }
+   * ```
+   * Will result
+   * {
+   *   d: [...],
+   *   d2: [...],
+   *   d3: [...],
+   * }
+   */
   rename_map?: { [origin: string]: string } | null
+  /**
+   * Build result structure with your own logic,
+   * option.collector will be ignored if this
+   * option exists.
+   */
+  custom_structure?: false | Custom_structure_interface
+}
+
+export interface Custom_structure_interface {
+  (it: any, key: string, result: any): void
 }
 
 export class Constraint {
@@ -149,10 +207,12 @@ export class Constraint {
     pick$: string[],
     opt?: Collect_opt) {
 
-    const def = {
-      collector: (collected_prop: any[], it: any) => {collected_prop.push(it)},
+    const def: Collect_opt = {
+      collector: default_collector,
+      custom_structure: false,
       rename_map: null,
     }
+
     opt = { ...def, ...opt }
 
     const result: { [key: string]: any[] } = {}
@@ -169,9 +229,14 @@ export class Constraint {
 
           const exist = _.get(it, pick)
           if (exist) {
-            const arr = result[name] = result[name] || []
-            if (!arr.includes(exist)) {
-              fn(arr, exist)
+            const builder = opt.custom_structure
+            if (builder) {
+              builder(exist, key, result)
+            } else {
+              const arr = result[name] = result[name] || []
+              if (!arr.includes(exist)) {
+                fn(exist, arr, key)
+              }
             }
           }
         })
@@ -179,6 +244,10 @@ export class Constraint {
     })
 
     return result
+
+    function default_collector(it: any, collected_prop: any[]) {
+      collected_prop.push(it)
+    }
   }
 
   uniquify(target: Constraint_list, key: string) {

@@ -124,7 +124,7 @@ it('up_collect', async () => {
   expect(_.difference(r.b, ['ok_b1', 'ok_b2', 'banned_b1', 'banned_b2'])).toHaveLength(0)
 
   let r2 = row.up_collect(['ok_a', 'banned_a'], ['obj_a', 'obj_b'], {
-    collector(arr, it) {
+    collector(it, arr) {
       arr.push(it.x)
     },
   })
@@ -133,7 +133,7 @@ it('up_collect', async () => {
   expect(_.difference(r2.obj_b, [2, 12])).toHaveLength(0)
 
   let r3 = row.up_collect(['ok_a', 'banned_a'], ['obj_a', 'obj_b'], {
-    collector(arr, it) {
+    collector(it, arr) {
       arr.push(it.x)
     },
     rename_map: {
@@ -146,7 +146,7 @@ it('up_collect', async () => {
   expect(_.difference(r3.bb, [2, 12])).toHaveLength(0)
 
   let r4 = row.up_collect(['ok_a', 'banned_a'], ['nest_a.a1', 'nest_b.b1'], {
-    collector(arr, it) {
+    collector(it, arr) {
       arr.push(it)
     },
     rename_map: {
@@ -157,4 +157,15 @@ it('up_collect', async () => {
 
   expect(r4.a).toHaveLength(2)
   expect(r4.b).toHaveLength(1)
+
+  const suffix = '_yoooo'
+  let r5 = row.up_collect(['ok_a', 'banned_a'], ['a', 'b'], {
+    custom_structure(it, key, result) {
+      key += suffix
+      const arr = result[key] = result[key] || []
+      arr.push(it)
+    },
+  })
+
+  expect(Object.keys(r5).every(it => it.endsWith(suffix))).toBeTruthy()
 })
