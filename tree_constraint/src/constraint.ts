@@ -145,7 +145,8 @@ export class Constraint {
    * @param fn Custom action for each collect
    */
   up_collect(
-    from_node$: Constraint_list, pick$: string[],
+    from_node$: Constraint_list,
+    pick$: string[],
     opt?: Collect_opt) {
 
     const def = {

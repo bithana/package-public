@@ -14,6 +14,8 @@ beforeEach(() => {
           x: 1,
           y: 3,
         },
+        nest_a: { a1: { a2: 'nest_a' } },
+        nest_b: { b1: { b2: 'nest_b' } },
         obj_b: {
           x: 2,
           y: 4,
@@ -25,6 +27,7 @@ beforeEach(() => {
               y: 7,
             },
             b: 'ok_b2',
+            nest_a: { a1: { a2: 'nest_a2' } },
             child$: {
               ok_b: {
                 a: 'ok_a3',
@@ -141,4 +144,17 @@ it('up_collect', async () => {
 
   expect(_.difference(r3.aa, [5, 1, 15, 11])).toHaveLength(0)
   expect(_.difference(r3.bb, [2, 12])).toHaveLength(0)
+
+  let r4 = row.up_collect(['ok_a', 'banned_a'], ['nest_a.a1', 'nest_b.b1'], {
+    collector(arr, it) {
+      arr.push(it)
+    },
+    rename_map: {
+      'nest_a.a1': 'a',
+      'nest_b.b1': 'b',
+    },
+  })
+
+  expect(r4.a).toHaveLength(2)
+  expect(r4.b).toHaveLength(1)
 })
