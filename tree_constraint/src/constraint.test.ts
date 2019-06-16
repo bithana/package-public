@@ -1,5 +1,6 @@
 import { Invalid_argument } from '@bithana/general-exception/build/internal/caller_fault/invalid_argument'
 import { Constraint } from './constraint'
+import _ = require('lodash')
 
 let row
 
@@ -7,10 +8,14 @@ beforeEach(() => {
   row = new Constraint({
     child$: {
       ok: {
+        a: 'ok_a1',
+        b: 'ok_b1',
         child$: {
           ok_a: {
+            b: 'ok_b2',
             child$: {
               ok_b: {
+                a: 'ok_a3',
                 child$: null,
               },
             },
@@ -23,10 +28,14 @@ beforeEach(() => {
         conflict$: ['ok'],
       },
       banned: {
+        a: 'banned_a1',
+        b: 'banned_b1',
         child$: {
           banned_a: {
+            b: 'banned_b2',
             child$: {
               banned_b: {
+                a: 'banned_a3',
                 child$: null,
               },
             },
@@ -72,4 +81,10 @@ it('is', async () => {
   expect(row.is(list, 'banned')).toBeFalsy()
 
   expect(row.is(['a', 'b'], 'a')).toBeFalsy()
+})
+
+it('up_collect', async () => {
+  let r = row.up_collect(['ok_a', 'banned_a'], ['a', 'b'])
+  expect(_.difference(r.a, ['ok_a1', 'banned_a1'])).toHaveLength(0)
+  expect(_.difference(r.b, ['ok_b1', 'ok_b2', 'banned_b1', 'banned_b2'])).toHaveLength(0)
 })

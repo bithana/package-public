@@ -73,9 +73,28 @@ export class Constraint {
     return result
   }
 
-  uniquify(target: Constraint_list, key) {
-    const node = this.find(key)
-    Tree.up(node, it => {
+  up_collect(list: Constraint_list, pick$: string[]) {
+    const result: { [key: string]: any[] } = {}
+
+    list.forEach(key => {
+      this.walk_tree_up(key, it => {
+        pick$.forEach(pick => {
+          const exist = it[pick]
+          if (exist) {
+            const arr = result[pick] = result[pick] || []
+            if (!arr.includes(exist)) {
+              arr.push(exist)
+            }
+          }
+        })
+      })
+    })
+
+    return result
+  }
+
+  uniquify(target: Constraint_list, key: string) {
+    this.walk_tree_up(key, it => {
       if (target.includes(it.name)) {
         target.splice(target.indexOf(it.name), 1)
       }
@@ -92,6 +111,13 @@ export class Constraint {
     }, { stop_condition() { result.length === key$.length } })
 
     return result
+  }
+
+  walk_tree_up(from: string, fn: Function, opt?: Walk_option) {
+    const node = this.find(from)
+    Tree.up(node, it => {
+      fn(it)
+    }, opt)
   }
 
   walk_tree_down(fn, opt?: Walk_option) {
