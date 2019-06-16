@@ -10,12 +10,28 @@ beforeEach(() => {
       ok: {
         a: 'ok_a1',
         b: 'ok_b1',
+        obj_a: {
+          x: 1,
+          y: 3,
+        },
+        obj_b: {
+          x: 2,
+          y: 4,
+        },
         child$: {
           ok_a: {
+            obj_a: {
+              x: 5,
+              y: 7,
+            },
             b: 'ok_b2',
             child$: {
               ok_b: {
                 a: 'ok_a3',
+                obj_b: {
+                  x: 6,
+                  y: 8,
+                },
                 child$: null,
               },
             },
@@ -30,12 +46,28 @@ beforeEach(() => {
       banned: {
         a: 'banned_a1',
         b: 'banned_b1',
+        obj_a: {
+          x: 11,
+          y: 13,
+        },
+        obj_b: {
+          x: 12,
+          y: 14,
+        },
         child$: {
           banned_a: {
             b: 'banned_b2',
+            obj_a: {
+              x: 15,
+              y: 17,
+            },
             child$: {
               banned_b: {
                 a: 'banned_a3',
+                obj_b: {
+                  x: 16,
+                  y: 18,
+                },
                 child$: null,
               },
             },
@@ -87,4 +119,11 @@ it('up_collect', async () => {
   let r = row.up_collect(['ok_a', 'banned_a'], ['a', 'b'])
   expect(_.difference(r.a, ['ok_a1', 'banned_a1'])).toHaveLength(0)
   expect(_.difference(r.b, ['ok_b1', 'ok_b2', 'banned_b1', 'banned_b2'])).toHaveLength(0)
+
+  let r2 = row.up_collect(['ok_a', 'banned_a'], ['obj_a', 'obj_b'], (arr, it) => {
+    arr.push(it.x)
+  })
+
+  expect(_.difference(r2.obj_a, [5, 1, 15, 11])).toHaveLength(0)
+  expect(_.difference(r2.obj_b, [2, 12])).toHaveLength(0)
 })

@@ -73,7 +73,7 @@ export class Constraint {
     return result
   }
 
-  up_collect(list: Constraint_list, pick$: string[]) {
+  up_collect(list: Constraint_list, pick$: string[], fn?: Function) {
     const result: { [key: string]: any[] } = {}
 
     list.forEach(key => {
@@ -83,7 +83,11 @@ export class Constraint {
           if (exist) {
             const arr = result[pick] = result[pick] || []
             if (!arr.includes(exist)) {
-              arr.push(exist)
+              if (fn) {
+                fn(arr, exist)
+              } else {
+                arr.push(exist)
+              }
             }
           }
         })
