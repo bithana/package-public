@@ -120,8 +120,10 @@ it('up_collect', async () => {
   expect(_.difference(r.a, ['ok_a1', 'banned_a1'])).toHaveLength(0)
   expect(_.difference(r.b, ['ok_b1', 'ok_b2', 'banned_b1', 'banned_b2'])).toHaveLength(0)
 
-  let r2 = row.up_collect(['ok_a', 'banned_a'], ['obj_a', 'obj_b'], (arr, it) => {
-    arr.push(it.x)
+  let r2 = row.up_collect(['ok_a', 'banned_a'], ['obj_a', 'obj_b'], {
+    collector(arr, it) {
+      arr.push(it.x)
+    },
   })
 
   expect(_.difference(r2.obj_a, [5, 1, 15, 11])).toHaveLength(0)

@@ -35,6 +35,11 @@ export interface Constraint_tree {
 
 export type Constraint_list = string[]
 
+type Collect_opt = {
+  collector: (collected_prop: any[], it: any) => void,
+  rename_map: { [origin: string]: string } | null
+}
+
 export class Constraint {
   tree: Constraint_tree
 
@@ -139,21 +144,34 @@ export class Constraint {
    * @param pick$
    * @param fn Custom action for each collect
    */
-  up_collect(from_node$: Constraint_list, pick$: string[], fn?: (collected_prop: any[], it: any) => void) {
+  up_collect(
+    from_node$: Constraint_list, pick$: string[],
+    opt?: Collect_opt) {
+
+    const def = {
+      collector: (collected_prop: any[], it: any) => {collected_prop.push(it)},
+      rename_map: null,
+    }
+    opt = { ...def, ...opt }
+
     const result: { [key: string]: any[] } = {}
+    const fn = opt.collector
+    const rename = opt.rename_map
 
     from_node$.forEach(key => {
       this.walk_tree_up(key, it => {
         pick$.forEach(pick => {
-          const exist = _.get(it, pick)
+          let name = pick
+          if (rename && rename[pick]) {
+            name = rename[pick]
+          }
+
+          const exist = _.get(it, name)
           if (exist) {
-            const arr = result[pick] = result[pick] || []
+
+            const arr = result[name] = result[name] || []
             if (!arr.includes(exist)) {
-              if (fn) {
-                fn(arr, exist)
-              } else {
-                arr.push(exist)
-              }
+              fn(arr, exist)
             }
           }
         })
