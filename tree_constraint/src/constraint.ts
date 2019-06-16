@@ -36,8 +36,8 @@ export interface Constraint_tree {
 export type Constraint_list = string[]
 
 type Collect_opt = {
-  collector: (collected_prop: any[], it: any) => void,
-  rename_map: { [origin: string]: string } | null
+  collector?: (collected_prop: any[], it: any) => void,
+  rename_map?: { [origin: string]: string } | null
 }
 
 export class Constraint {
