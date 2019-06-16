@@ -128,4 +128,17 @@ it('up_collect', async () => {
 
   expect(_.difference(r2.obj_a, [5, 1, 15, 11])).toHaveLength(0)
   expect(_.difference(r2.obj_b, [2, 12])).toHaveLength(0)
+
+  let r3 = row.up_collect(['ok_a', 'banned_a'], ['obj_a', 'obj_b'], {
+    collector(arr, it) {
+      arr.push(it.x)
+    },
+    rename_map: {
+      obj_a: 'aa',
+      obj_b: 'bb',
+    },
+  })
+
+  expect(_.difference(r3.aa, [5, 1, 15, 11])).toHaveLength(0)
+  expect(_.difference(r3.bb, [2, 12])).toHaveLength(0)
 })

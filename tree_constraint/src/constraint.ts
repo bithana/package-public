@@ -166,9 +166,8 @@ export class Constraint {
             name = rename[pick]
           }
 
-          const exist = _.get(it, name)
+          const exist = _.get(it, pick)
           if (exist) {
-
             const arr = result[name] = result[name] || []
             if (!arr.includes(exist)) {
               fn(arr, exist)
