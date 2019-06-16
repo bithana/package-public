@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2b655e1d-60dc-46f2-b375-2e3ebed4eebf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree_constraint/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/tree_constraint/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree_constraint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tree_constraint/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree_constraint/src/constraint.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tree_constraint/src/constraint.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,12 +19,25 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tree_constraint/src/constraint.test.ts">
+        <entry file="file://$PROJECT_DIR$/tree_constraint/src/constraint.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="170" selection-start-line="170" selection-end-line="170" />
+            <state relative-caret-position="133">
+              <caret line="207" column="27" selection-start-line="207" selection-start-column="27" selection-end-line="207" selection-end-column="27" />
               <folding>
                 <element signature="e#0#106#0" expanded="true" />
+                <element signature="n#!!doc;n#collector#0;n#!!block;n#Collect_opt#0" expanded="true" />
+                <element signature="n#!!doc;n#rename_map#0;n#!!block;n#Collect_opt#0" expanded="true" />
+                <element signature="n#!!doc;n#custom_structure#0;n#!!block;n#Collect_opt#0" expanded="true" />
+                <element signature="n#!!block;n#constructor#0;n#Constraint#0" expanded="true" />
+                <element signature="n#!!block;n#load_tree#0;n#Constraint#0" expanded="true" />
+                <element signature="n#!!block;n#set#0;n#Constraint#0" expanded="true" />
+                <element signature="n#!!block;n#is#0;n#Constraint#0" expanded="true" />
+                <element signature="n#!!doc;n#up_collect#0;n#Constraint#0" expanded="true" />
+                <element signature="n#!!block;n#up_collect#0;n#Constraint#0" expanded="true" />
+                <element signature="e#5064#5653#0" expanded="true" />
+                <element signature="e#5101#5646#0" expanded="true" />
+                <element signature="e#5133#5637#0" expanded="true" />
+                <element signature="n#!!block;n#default_collector#0;n#!!block;n#up_collect#0;n#Constraint#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,8 +155,8 @@
         <option value="$PROJECT_DIR$/tree_constraint/src/tree.test.ts" />
         <option value="$PROJECT_DIR$/tree_constraint/package.json" />
         <option value="$PROJECT_DIR$/tree_constraint/src/tree.ts" />
-        <option value="$PROJECT_DIR$/tree_constraint/src/constraint.ts" />
         <option value="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" />
+        <option value="$PROJECT_DIR$/tree_constraint/src/constraint.ts" />
       </list>
     </option>
   </component>
@@ -161,6 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,7 +199,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -372,14 +386,12 @@
       <workItem from="1560676022492" duration="4658000" />
       <workItem from="1560680996627" duration="1240000" />
       <workItem from="1560683297711" duration="1563000" />
-      <workItem from="1560684907789" duration="2099000" />
+      <workItem from="1560684907789" duration="2736000" />
+      <workItem from="1560698653092" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="up_collect - 2019.06.16 at 19h 34m 10s.xml">
-      <configuration name="up_collect" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
     <history-entry file="constraint_test_ts - 2019.06.16 at 20h 00m 52s.xml">
       <configuration name="constraint.test.ts" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
@@ -407,9 +419,12 @@
     <history-entry file="up_collect - 2019.06.16 at 20h 09m 26s.xml">
       <configuration name="up_collect" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="up_collect - 2019.06.16 at 20h 10m 14s.xml">
+      <configuration name="up_collect" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83454000" />
+    <option name="totallyTimeSpent" value="84099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -423,7 +438,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32902467" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4465335" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4465335" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -432,7 +447,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Tool Output" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.57109284" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.57109284" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32902467" />
       <window_info anchor="bottom" id="ANTLR Preview" order="13" />
       <window_info anchor="bottom" id="TypeScript" order="14" />
@@ -1001,10 +1016,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tree_constraint/src/constraint.test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="161" column="22" selection-start-line="161" selection-start-column="22" selection-end-line="161" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tree_constraint/src/constraint.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="237" column="35" lean-forward="true" selection-start-line="237" selection-start-column="35" selection-end-line="237" selection-end-column="35" />
+        <state relative-caret-position="133">
+          <caret line="207" column="27" selection-start-line="207" selection-start-column="27" selection-end-line="207" selection-end-column="27" />
           <folding>
             <element signature="e#0#106#0" expanded="true" />
             <element signature="n#!!doc;n#collector#0;n#!!block;n#Collect_opt#0" expanded="true" />
@@ -1015,17 +1040,11 @@
             <element signature="n#!!block;n#set#0;n#Constraint#0" expanded="true" />
             <element signature="n#!!block;n#is#0;n#Constraint#0" expanded="true" />
             <element signature="n#!!doc;n#up_collect#0;n#Constraint#0" expanded="true" />
+            <element signature="n#!!block;n#up_collect#0;n#Constraint#0" expanded="true" />
+            <element signature="e#5064#5653#0" expanded="true" />
+            <element signature="e#5101#5646#0" expanded="true" />
+            <element signature="e#5133#5637#0" expanded="true" />
             <element signature="n#!!block;n#default_collector#0;n#!!block;n#up_collect#0;n#Constraint#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree_constraint/src/constraint.test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="170" selection-start-line="170" selection-end-line="170" />
-          <folding>
-            <element signature="e#0#106#0" expanded="true" />
           </folding>
         </state>
       </provider>

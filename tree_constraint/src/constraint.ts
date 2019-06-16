@@ -205,7 +205,7 @@ export class Constraint {
   up_collect(
     from_node$: Constraint_list,
     pick$: string[],
-    opt?: Collect_opt) {
+    opt?: Collect_opt): any {
 
     const def: Collect_opt = {
       collector: default_collector,
