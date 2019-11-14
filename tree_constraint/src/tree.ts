@@ -48,7 +48,7 @@ export class Tree {
     const parent_name = opt.parent_name
 
     if (_.isFunction(callback$)) {
-      callback$ = [callback$]
+      callback$ = [ callback$ ]
     }
 
     callback$.forEach(fn => fn && fn(node))
@@ -90,7 +90,7 @@ export class Tree {
     const { stop_condition, child_name, parent_name, key_name, flat_ancestor, set_parent } = opt
 
     if (_.isFunction(callback$)) {
-      callback$ = [callback$]
+      callback$ = [ callback$ ]
     }
 
     if (callback$) {
@@ -123,7 +123,7 @@ export class Tree {
 
     function single_walk(child) {
       if (flat_ancestor) {
-        child.ancestor$ = child.ancestor$ || [...node.ancestor$]
+        child.ancestor$ = child.ancestor$ || [ ...node.ancestor$ ]
         child.ancestor$.push(node)
       }
 

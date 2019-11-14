@@ -3,63 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2b655e1d-60dc-46f2-b375-2e3ebed4eebf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Invalid_model_state.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Invalid_model_state.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Invalid_model_state.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Invalid_state.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Invalid_state.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Invalid_state.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_argument.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_argument.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_argument.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_model_property.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_model_property.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_model_property.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/external/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/caller_fault/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/caller_fault/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/caller_fault/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/caller_fault/invalid_argument.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/caller_fault/invalid_argument.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/caller_fault/invalid_argument.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/test.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/test.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/type.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/type.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/type.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/external/callee_fault/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/src/callee_fault/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/external/callee_fault/invalid_model_state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/src/callee_fault/invalid_model_state.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/external/callee_fault/invalid_state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/src/callee_fault/invalid_state.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/external/caller_fault/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/src/caller_fault/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/external/caller_fault/invalid_argument.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/src/caller_fault/invalid_argument.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/external/caller_fault/invalid_model_property.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/src/caller_fault/invalid_model_property.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/external/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/internal/caller_fault/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/internal/caller_fault/invalid_argument.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/internal/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree_constraint/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/tree_constraint/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree_constraint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tree_constraint/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree_constraint/src/constraint.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tree_constraint/src/constraint.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree_constraint/test/test.ts" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.constraint.test.ts">
+  <component name="RunManager" selected="Jest.tree.test.ts">
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -193,17 +139,14 @@
       <test-file value="$PROJECT_DIR$/general-exception/test.ts" />
       <method v="2" />
     </configuration>
-    <configuration name="uniquify" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="tree.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/tree_constraint/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$/tree_constraint" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" />
-      <test-names>
-        <test-name value="uniquify" />
-      </test-names>
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/tree_constraint/src/tree.test.ts" />
       <method v="2" />
     </configuration>
     <configuration name="up_collect" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -230,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.tree.test.ts" />
         <item itemvalue="Jest.constraint.test.ts" />
         <item itemvalue="Jest.test.ts (1)" />
         <item itemvalue="Jest.test.ts" />
         <item itemvalue="Jest.up_collect" />
-        <item itemvalue="Jest.uniquify" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +218,9 @@
       <workItem from="1560698653092" duration="686000" />
       <workItem from="1573392218652" duration="1357000" />
       <workItem from="1573530213343" duration="1060000" />
-      <workItem from="1573705853375" duration="219000" />
+      <workItem from="1573705853375" duration="281000" />
+      <workItem from="1573706314288" duration="6000" />
+      <workItem from="1573706357253" duration="429000" />
     </task>
     <servers />
   </component>

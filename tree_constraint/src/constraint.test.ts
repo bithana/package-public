@@ -1,4 +1,4 @@
-import { Invalid_argument } from '../../general-exception/src/caller_fault/invalid_argument'
+import { Invalid_argument } from '@bithana/general-exception/build/src/caller_fault/invalid_argument'
 import { Constraint } from './constraint'
 import _ = require('lodash')
 
