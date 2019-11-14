@@ -1,11 +1,11 @@
-import { External } from './external'
-import { Callee_fault } from './external/callee_fault'
-import { Invalid_model_state } from './external/callee_fault/invalid_model_state'
+import { Callee_fault } from './src/callee_fault'
+import { Invalid_model_state } from './src/callee_fault/invalid_model_state'
 import { E } from './index'
+import { Caller_fault } from './src/caller_fault/index'
 
 it('E', async () => {
   expect(() => {throw new E('yo')}).toThrow(E)
-  expect(() => {throw new External('yo')}).toThrow(External)
+  expect(() => {throw new Caller_fault('yo')}).toThrow(Caller_fault)
 })
 
 it('should throw exception', async () => {

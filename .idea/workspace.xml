@@ -3,9 +3,63 @@
   <component name="ChangeListManager">
     <list default="true" id="2b655e1d-60dc-46f2-b375-2e3ebed4eebf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Invalid_model_state.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Invalid_model_state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Invalid_model_state.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Invalid_state.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Invalid_state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/Invalid_state.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/callee_fault/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_argument.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_argument.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_argument.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_model_property.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_model_property.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/Invalid_model_property.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/caller_fault/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/external/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/caller_fault/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/caller_fault/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/caller_fault/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/caller_fault/invalid_argument.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/caller_fault/invalid_argument.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/caller_fault/invalid_argument.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/internal/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/test.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/test.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/type.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/type.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/external/callee_fault/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/src/callee_fault/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/external/callee_fault/invalid_model_state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/src/callee_fault/invalid_model_state.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/external/callee_fault/invalid_state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/src/callee_fault/invalid_state.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/external/caller_fault/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/src/caller_fault/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/external/caller_fault/invalid_argument.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/src/caller_fault/invalid_argument.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/external/caller_fault/invalid_model_property.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/src/caller_fault/invalid_model_property.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/external/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/internal/caller_fault/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/internal/caller_fault/invalid_argument.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/internal/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree_constraint/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/tree_constraint/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree_constraint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tree_constraint/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree_constraint/src/constraint.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tree_constraint/src/constraint.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree_constraint/test/test.ts" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,35 +70,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tree_constraint/src/constraint.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="207" column="27" selection-start-line="207" selection-start-column="27" selection-end-line="207" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#106#0" expanded="true" />
-                <element signature="n#!!doc;n#collector#0;n#!!block;n#Collect_opt#0" expanded="true" />
-                <element signature="n#!!doc;n#rename_map#0;n#!!block;n#Collect_opt#0" expanded="true" />
-                <element signature="n#!!doc;n#custom_structure#0;n#!!block;n#Collect_opt#0" expanded="true" />
-                <element signature="n#!!block;n#constructor#0;n#Constraint#0" expanded="true" />
-                <element signature="n#!!block;n#load_tree#0;n#Constraint#0" expanded="true" />
-                <element signature="n#!!block;n#set#0;n#Constraint#0" expanded="true" />
-                <element signature="n#!!block;n#is#0;n#Constraint#0" expanded="true" />
-                <element signature="n#!!doc;n#up_collect#0;n#Constraint#0" expanded="true" />
-                <element signature="n#!!block;n#up_collect#0;n#Constraint#0" expanded="true" />
-                <element signature="e#5064#5653#0" expanded="true" />
-                <element signature="e#5101#5646#0" expanded="true" />
-                <element signature="e#5133#5637#0" expanded="true" />
-                <element signature="n#!!block;n#default_collector#0;n#!!block;n#up_collect#0;n#Constraint#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -52,154 +77,15 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>version&quot;:</find>
-      <find>depre</find>
-      <find>defaul</find>
-      <find>columns</find>
-      <find>trim</find>
-      <find>trim?:</find>
-      <find>expe</find>
-      <find>this.</find>
-      <find>this.set</find>
-      <find>this.set_</find>
-      <find>repos</find>
-      <find>$parent</find>
-      <find>main&quot;</find>
-      <find>print</find>
-      <find>dump</find>
-      <find>general-</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/general-exception/external/caller_fault</dir>
-      <dir>$PROJECT_DIR$/general-exception/external/callee_fault</dir>
-      <dir>$PROJECT_DIR$/general-exception</dir>
-      <dir>$PROJECT_DIR$/general-exception/external</dir>
-      <dir>$PROJECT_DIR$/tree_constraint</dir>
-      <dir>$PROJECT_DIR$/tree_constraint/src</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/canx/readme.md" />
-        <option value="$PROJECT_DIR$/csv/package.json" />
-        <option value="$PROJECT_DIR$/canx/package.json" />
-        <option value="$PROJECT_DIR$/canx/test/data/super.csv" />
-        <option value="$PROJECT_DIR$/csv/test/data/default_with_header.csv" />
-        <option value="$PROJECT_DIR$/csv/test/test.ts" />
-        <option value="$PROJECT_DIR$/csv/readme.md" />
-        <option value="$PROJECT_DIR$/canx/test/data/super.permission" />
-        <option value="$PROJECT_DIR$/csv/index.ts" />
-        <option value="$PROJECT_DIR$/canx/src/Canx.ts" />
-        <option value="$PROJECT_DIR$/canx/test/data/permission.yaml" />
-        <option value="$PROJECT_DIR$/canx/test/permission.tld" />
-        <option value="$PROJECT_DIR$/canx/tsconfig.json" />
-        <option value="$PROJECT_DIR$/canx/src/type.ts" />
-        <option value="$PROJECT_DIR$/canx/src/index.ts" />
-        <option value="$PROJECT_DIR$/canx/test/test.ts" />
-        <option value="$PROJECT_DIR$/load-env-once/index.js" />
-        <option value="$PROJECT_DIR$/load-env-once/index.d.ts" />
-        <option value="$PROJECT_DIR$/general-exception/a.ts" />
-        <option value="$PROJECT_DIR$/general-exception/tsconfig.json" />
-        <option value="$PROJECT_DIR$/general-exception/external/caller_fault/Invalid_Parameter_Exception.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/callee_fault/model/Invalid_Model_State_Exception.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/callee_fault/Invalid_State_Exception.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/External_Exception.ts" />
-        <option value="$PROJECT_DIR$/print/test/test.ts" />
-        <option value="$PROJECT_DIR$/print/src/index.test.ts" />
-        <option value="$PROJECT_DIR$/print/src/index.d.ts" />
-        <option value="$PROJECT_DIR$/print/src/index.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/caller_fault/model/Invalid_Model_Property_Exception.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/caller_fault/model/Invalid_model_property_exception.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/External_exception.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/caller_fault/Invalid_parameter_exception.ts" />
-        <option value="$PROJECT_DIR$/general-exception/Exception.ts" />
-        <option value="$PROJECT_DIR$/general-exception/type.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/caller_fault/E_invalid_parameter.ts" />
-        <option value="$PROJECT_DIR$/general-exception/internal/E_internal.ts" />
-        <option value="$PROJECT_DIR$/general-exception/internal/internal.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/E_external.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/caller_fault/Invalid_parameter.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/callee_fault/model/Invalid_model_state.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/callee_fault/Callee_fault.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/caller_fault/model/Invalid_model_property.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/caller_fault/Caller_fault.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/External.ts" />
-        <option value="$PROJECT_DIR$/general-exception/internal/Internal.ts" />
-        <option value="$PROJECT_DIR$/general-exception/E.ts" />
-        <option value="$PROJECT_DIR$/general-exception/package.json" />
-        <option value="$PROJECT_DIR$/general-exception/external/caller_fault/Invalid_argument.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/caller_fault/Invalid_model_property.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/callee_fault/Invalid_state.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/callee_fault/Invalid_model_state.ts" />
-        <option value="$PROJECT_DIR$/tree_constraint/index.ts" />
-        <option value="$PROJECT_DIR$/general-exception/internal/caller_fault/Caller_fault.ts" />
-        <option value="$PROJECT_DIR$/general-exception/internal/caller_fault/Invalid_argument.ts" />
-        <option value="$PROJECT_DIR$/general-exception/index.ts" />
-        <option value="$PROJECT_DIR$/general-exception/internal/index.ts" />
-        <option value="$PROJECT_DIR$/general-exception/internal/caller_fault/index.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/index.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/callee_fault/index.ts" />
-        <option value="$PROJECT_DIR$/general-exception/external/caller_fault/index.ts" />
-        <option value="$PROJECT_DIR$/general-exception/test.ts" />
-        <option value="$PROJECT_DIR$/print/package.json" />
-        <option value="$PROJECT_DIR$/tree_constraint/src/tree.test.ts" />
-        <option value="$PROJECT_DIR$/tree_constraint/package.json" />
-        <option value="$PROJECT_DIR$/tree_constraint/src/tree.ts" />
-        <option value="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" />
-        <option value="$PROJECT_DIR$/tree_constraint/src/constraint.ts" />
-      </list>
-    </option>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
+  <component name="ProjectId" id="1TQVHF4XPNfKVUwH3Lo0YCfOa9N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="@bithana" type="b2602c69:ProjectViewProjectNode" />
-              <item name="@bithana" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="@bithana" type="b2602c69:ProjectViewProjectNode" />
-              <item name="@bithana" type="462c0819:PsiDirectoryNode" />
-              <item name="tree_constraint" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="@bithana" type="b2602c69:ProjectViewProjectNode" />
-              <item name="@bithana" type="462c0819:PsiDirectoryNode" />
-              <item name="tree_constraint" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -222,16 +108,18 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/general-exception/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/general-exception/src" />
+      <recent name="$PROJECT_DIR$/general-exception" />
+      <recent name="$PROJECT_DIR$/general-exception/external/callee_fault" />
+      <recent name="$PROJECT_DIR$/general-exception/external/caller_fault" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tree_constraint/src" />
       <recent name="$PROJECT_DIR$/general-exception/internal" />
       <recent name="$PROJECT_DIR$/general-exception/external/callee_fault" />
       <recent name="$PROJECT_DIR$/general-exception/external/caller_fault" />
       <recent name="$PROJECT_DIR$/general-exception" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/general-exception/external/callee_fault" />
-      <recent name="$PROJECT_DIR$/general-exception/external/caller_fault" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -246,7 +134,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.up_collect">
+  <component name="RunManager" selected="Jest.constraint.test.ts">
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -276,27 +173,24 @@
       <test-file value="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" />
       <method v="2" />
     </configuration>
-    <configuration name="is" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/tree_constraint/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$/tree_constraint" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" />
-      <test-names>
-        <test-name value="is" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="tree.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="test.ts (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/tree_constraint/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$/tree_constraint" />
       <envs />
       <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/tree_constraint/src/tree.test.ts" />
+      <test-file value="$PROJECT_DIR$/tree_constraint/test/test.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/general-exception/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/general-exception" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/general-exception/test.ts" />
       <method v="2" />
     </configuration>
     <configuration name="uniquify" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -325,15 +219,6 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -345,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.up_collect" />
         <item itemvalue="Jest.constraint.test.ts" />
+        <item itemvalue="Jest.test.ts (1)" />
+        <item itemvalue="Jest.test.ts" />
+        <item itemvalue="Jest.up_collect" />
         <item itemvalue="Jest.uniquify" />
-        <item itemvalue="Jest.is" />
-        <item itemvalue="Jest.tree.test.ts" />
       </list>
     </recent_temporary>
   </component>
@@ -387,80 +272,12 @@
       <workItem from="1560680996627" duration="1240000" />
       <workItem from="1560683297711" duration="1563000" />
       <workItem from="1560684907789" duration="2736000" />
-      <workItem from="1560698653092" duration="8000" />
+      <workItem from="1560698653092" duration="686000" />
+      <workItem from="1573392218652" duration="1357000" />
+      <workItem from="1573530213343" duration="1060000" />
+      <workItem from="1573705853375" duration="219000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="constraint_test_ts - 2019.06.16 at 20h 00m 52s.xml">
-      <configuration name="constraint.test.ts" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="constraint_test_ts - 2019.06.16 at 20h 02m 10s.xml">
-      <configuration name="constraint.test.ts" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="constraint_test_ts - 2019.06.16 at 20h 02m 33s.xml">
-      <configuration name="constraint.test.ts" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="constraint_test_ts - 2019.06.16 at 20h 02m 46s.xml">
-      <configuration name="constraint.test.ts" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="constraint_test_ts - 2019.06.16 at 20h 03m 44s.xml">
-      <configuration name="constraint.test.ts" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="constraint_test_ts - 2019.06.16 at 20h 06m 19s.xml">
-      <configuration name="constraint.test.ts" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="up_collect - 2019.06.16 at 20h 08m 26s.xml">
-      <configuration name="up_collect" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="up_collect - 2019.06.16 at 20h 08m 57s.xml">
-      <configuration name="up_collect" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="up_collect - 2019.06.16 at 20h 09m 26s.xml">
-      <configuration name="up_collect" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="up_collect - 2019.06.16 at 20h 10m 14s.xml">
-      <configuration name="up_collect" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84099000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25208333" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Learn" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32902467" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4465335" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Tool Output" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.57109284" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32902467" />
-      <window_info anchor="bottom" id="ANTLR Preview" order="13" />
-      <window_info anchor="bottom" id="TypeScript" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Remote Host" order="5" />
-      <window_info anchor="right" id="SciView" order="6" />
-      <window_info anchor="right" id="Maven" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -490,565 +307,18 @@
       </list>
     </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="43" selection-start-column="43" selection-end-column="43" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canx/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="54">
-            <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa-helper/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canx/node_modules/@types/jest/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_PLUGINS_DIR$/NodeJS/lib/NodeJS.jar!/com/jetbrains/nodejs/packageJson/packageJsonSchema.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="177" column="28" lean-forward="true" selection-start-line="177" selection-start-column="28" selection-end-line="177" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canx/node_modules/jest/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canx/node_modules/csv-parse/lib/index.d.ts" />
-    <entry file="file://$PROJECT_DIR$/csv/test/data/default.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csv/test/data/pipe_delimiter.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csv/test/data/default_with_header.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csv/test/test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <element signature="e#890#1007#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csv/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="325">
-            <caret line="87" column="4" lean-forward="true" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
-            <folding>
-              <element signature="e#133#403#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canx/node_modules/@bithana/csv/index.ts" />
-    <entry file="file://$PROJECT_DIR$/csv/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <element signature="n#!!block;n#parse#0" expanded="true" />
-            <element signature="e#590#704#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canx/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canx/src/Canx.d.ts" />
-    <entry file="file://$PROJECT_DIR$/canx/test/data/super.permission" />
-    <entry file="file://$PROJECT_DIR$/canx/src/Canx.ts" />
-    <entry file="file://$PROJECT_DIR$/canx/test/data/permission.yaml" />
-    <entry file="file://$PROJECT_DIR$/canx/test/permission.tld" />
-    <entry file="file://$PROJECT_DIR$/canx/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canx/src/type.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#!!doc;n#Action$#0" expanded="true" />
-            <element signature="n#!!doc;n#Permission_Node#0" expanded="true" />
-            <element signature="n#!!doc;n#type#0;n#!!block;n#Permission_Node#0" expanded="true" />
-            <element signature="n#!!doc;n#name#0;n#!!block;n#Permission_Node#0" expanded="true" />
-            <element signature="n#!!doc;n#children#0;n#!!block;n#Permission_Node#0" expanded="true" />
-            <element signature="n#!!doc;n#action#0;n#!!block;n#Permission_Node#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canx/src/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc;n#init_table#0" expanded="true" />
-            <element signature="n#!!block;n#init_table#0" expanded="true" />
-            <element signature="n#!!block;n#init_table_once#0" expanded="true" />
-            <element signature="n#!!block;n#allow#0" expanded="true" />
-            <element signature="e#954#1247#0" expanded="true" />
-            <element signature="n#!!block;n#read#0" expanded="true" />
-            <element signature="n#!!block;n#convert_role_list_to_role_map#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canx/test/test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csv/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/load-env-once/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/index.js" />
-    <entry file="file://$PROJECT_DIR$/general-exception/util.ts" />
-    <entry file="file://$PROJECT_DIR$/canx/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="64" column="33" lean-forward="true" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/a.ts" />
-    <entry file="file://$PROJECT_DIR$/general-exception/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/build/external/callee_fault/model/Invalid_model_state_exception.js" />
-    <entry file="file://$PROJECT_DIR$/general-exception/node_modules/ts-custom-error/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="131" column="4" lean-forward="true" selection-start-line="131" selection-start-column="4" selection-end-line="131" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/load-env-once/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-          <folding>
-            <element signature="n#!!block;n#load_env_once#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/load-env-once/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/print/node_modules/@types/node/util.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/print/test/test.ts" />
-    <entry file="file://$PROJECT_DIR$/print/src/index.test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/print/build/src/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/print/build/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/print/src/index.d.ts" />
-    <entry file="file://$PROJECT_DIR$/print/src/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!block;n#dump#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/Exception_Base.ts" />
-    <entry file="file://$PROJECT_DIR$/general-exception/build/external/External_exception.d.ts" />
-    <entry file="file://$PROJECT_DIR$/general-exception/build/type.d.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa-helper/helper/s.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!block;n#s#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa-helper/helper/e.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/build/Exception.d.ts" />
-    <entry file="file://$PROJECT_DIR$/general-exception/type.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/node_modules/ts-custom-error/dist/custom-error.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/external/caller_fault/invalid_model_property.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/internal/caller_fault/invalid_argument.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/external/callee_fault/invalid_model_state.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="47" selection-start-column="47" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/external/callee_fault/invalid_state.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/jest.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-            <element signature="n#!!block;n#constructor#0;n#E#0" expanded="true" />
-            <element signature="n#!!block;n#make_eid#0;n#E#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/internal/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/internal/caller_fault/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/external/callee_fault/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/external/caller_fault/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-            <element signature="e#242#314#0" expanded="true" />
-            <element signature="e#410#530#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree_constraint/node_modules/mypluralize/dist/index.d.ts" />
-    <entry file="file://$PROJECT_DIR$/tree_constraint/node_modules/mypluralize/package.json" />
-    <entry file="file://$PROJECT_DIR$/tree_constraint/build/print/src/index.js" />
-    <entry file="file://$PROJECT_DIR$/tree_constraint/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree_constraint/jest.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree_constraint/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/print/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree_constraint/src/tree.test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-            <element signature="e#161#453#0" expanded="true" />
-            <element signature="e#479#1352#0" expanded="true" />
-            <element signature="e#563#1175#0" expanded="true" />
-            <element signature="e#593#1034#0" expanded="true" />
-            <element signature="e#1202#1350#0" expanded="true" />
-            <element signature="e#1248#1300#0" expanded="true" />
-            <element signature="e#1376#1719#0" expanded="true" />
-            <element signature="e#1497#1690#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree_constraint/build/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree_constraint/build/src/constraint.d.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree_constraint/build/src/constraint.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/external/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general-exception/external/caller_fault/invalid_argument.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree_constraint/src/tree.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-            <element signature="n#!!block;n#find#0;n#Tree#0" expanded="true" />
-            <element signature="n#!!doc;n#up#0;n#Tree#0" expanded="true" />
-            <element signature="n#!!block;n#up#0;n#Tree#0" expanded="true" />
-            <element signature="n#!!block;n#set_parent#0;n#Tree#0" expanded="true" />
-            <element signature="n#!!doc;n#down#0;n#Tree#0" expanded="true" />
-            <element signature="n#!!block;n#down#0;n#Tree#0" expanded="true" />
-            <element signature="n#!!block;n#single_walk#0;n#!!block;n#down#0;n#Tree#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree_constraint/node_modules/@types/lodash/ts3.1/common/array.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="108" column="8" lean-forward="true" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
-          <folding>
-            <element signature="e#3154#3495#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree_constraint/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree_constraint/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree_constraint/src/constraint.test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="161" column="22" selection-start-line="161" selection-start-column="22" selection-end-line="161" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree_constraint/src/constraint.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="207" column="27" selection-start-line="207" selection-start-column="27" selection-end-line="207" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#106#0" expanded="true" />
-            <element signature="n#!!doc;n#collector#0;n#!!block;n#Collect_opt#0" expanded="true" />
-            <element signature="n#!!doc;n#rename_map#0;n#!!block;n#Collect_opt#0" expanded="true" />
-            <element signature="n#!!doc;n#custom_structure#0;n#!!block;n#Collect_opt#0" expanded="true" />
-            <element signature="n#!!block;n#constructor#0;n#Constraint#0" expanded="true" />
-            <element signature="n#!!block;n#load_tree#0;n#Constraint#0" expanded="true" />
-            <element signature="n#!!block;n#set#0;n#Constraint#0" expanded="true" />
-            <element signature="n#!!block;n#is#0;n#Constraint#0" expanded="true" />
-            <element signature="n#!!doc;n#up_collect#0;n#Constraint#0" expanded="true" />
-            <element signature="n#!!block;n#up_collect#0;n#Constraint#0" expanded="true" />
-            <element signature="e#5064#5653#0" expanded="true" />
-            <element signature="e#5101#5646#0" expanded="true" />
-            <element signature="e#5133#5637#0" expanded="true" />
-            <element signature="n#!!block;n#default_collector#0;n#!!block;n#up_collect#0;n#Constraint#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>

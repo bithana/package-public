@@ -1,4 +1,4 @@
-import { Invalid_argument } from '@bithana/general-exception/build/internal/caller_fault/invalid_argument'
+import { Invalid_argument } from '../../general-exception/src/caller_fault/invalid_argument'
 import { Tree, Walk_option } from './tree'
 import _ = require('lodash')
 

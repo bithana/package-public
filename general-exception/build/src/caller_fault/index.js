@@ -13,13 +13,13 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var index_1 = require("../index");
+var index_1 = require("../../index");
 var Caller_fault = /** @class */ (function (_super) {
     __extends(Caller_fault, _super);
     function Caller_fault() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     return Caller_fault;
-}(index_1.Internal));
+}(index_1.E));
 exports.Caller_fault = Caller_fault;
 //# sourceMappingURL=index.js.map
