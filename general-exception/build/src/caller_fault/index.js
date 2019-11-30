@@ -16,8 +16,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var index_1 = require("../../index");
 var Caller_fault = /** @class */ (function (_super) {
     __extends(Caller_fault, _super);
-    function Caller_fault() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function Caller_fault(title, solution) {
+        if (title === void 0) { title = 'You likely have an error in you input.'; }
+        if (solution === void 0) { solution = 'If you are confused about this, contact us to fix it.'; }
+        return _super.call(this, title, solution) || this;
     }
     return Caller_fault;
 }(index_1.E));

@@ -30,8 +30,8 @@ var E = /** @class */ (function (_super) {
          */
         _this.chain = [];
         _this.title = title;
-        _this.data = data;
         _this.solution = solution;
+        _this.data = data;
         _this.echain = _this.generate_echain();
         // Last order
         _this.message = _this.toString();

@@ -16,8 +16,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var index_1 = require("../../index");
 var Callee_fault = /** @class */ (function (_super) {
     __extends(Callee_fault, _super);
-    function Callee_fault() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function Callee_fault(title, solution) {
+        if (title === void 0) { title = 'Something went wrong inside the callee.'; }
+        if (solution === void 0) { solution = 'The thing you are calling has an internal state problem, Please contact us to fix this.'; }
+        return _super.call(this, title, solution) || this;
     }
     return Callee_fault;
 }(index_1.E));

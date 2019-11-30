@@ -37,7 +37,7 @@ export declare class E extends CustomError implements Exception_Interface {
     solution?: string;
     message: string;
     data?: any;
-    constructor(title: string, solution?: string, data?: any);
+    constructor(title?: string, solution?: string, data?: any);
     /**
      * @param ins
      * @param echain

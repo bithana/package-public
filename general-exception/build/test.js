@@ -36,15 +36,15 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var callee_fault_1 = require("./src/callee_fault");
-var invalid_model_state_1 = require("./src/callee_fault/invalid_model_state");
 var index_1 = require("./index");
-var index_2 = require("./src/caller_fault/index");
+var callee_fault_1 = require("./src/callee_fault");
+var index_2 = require("./src/callee_fault/invalid_state/index");
+var index_3 = require("./src/caller_fault/index");
 var constant_1 = require("./src/constant");
 it('E', function () { return __awaiter(void 0, void 0, void 0, function () {
     return __generator(this, function (_a) {
         expect(function () { throw new index_1.E('yo'); }).toThrow(index_1.E);
-        expect(function () { throw new index_2.Caller_fault('yo'); }).toThrow(index_2.Caller_fault);
+        expect(function () { throw new index_3.Caller_fault('yo'); }).toThrow(index_3.Caller_fault);
         return [2 /*return*/];
     });
 }); });
@@ -57,7 +57,7 @@ it('should throw exception', function () { return __awaiter(void 0, void 0, void
 it('should generate eid', function () { return __awaiter(void 0, void 0, void 0, function () {
     var e;
     return __generator(this, function (_a) {
-        e = new invalid_model_state_1.Invalid_model_state('yo', 'ha');
+        e = new callee_fault_1.Callee_fault('yo', 'ha');
         expect(e.eid).toBe(constant_1.GENERAL_EXCEPTION);
         return [2 /*return*/];
     });
@@ -65,9 +65,17 @@ it('should generate eid', function () { return __awaiter(void 0, void 0, void 0,
 it('should generate echain', function () { return __awaiter(void 0, void 0, void 0, function () {
     var e;
     return __generator(this, function (_a) {
-        e = new invalid_model_state_1.Invalid_model_state('yo');
+        e = new callee_fault_1.Callee_fault('yo');
         expect(e.echain).toContain('.');
         expect(e.chain.length).toBeGreaterThan(0);
+        return [2 /*return*/];
+    });
+}); });
+it('should print default message', function () { return __awaiter(void 0, void 0, void 0, function () {
+    var e;
+    return __generator(this, function (_a) {
+        e = new index_2.Invalid_state();
+        expect(e.message).toHaveLength;
         return [2 /*return*/];
     });
 }); });
