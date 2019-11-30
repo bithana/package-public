@@ -5,7 +5,7 @@ import { Caller_fault } from './src/caller_fault/index'
 import { GENERAL_EXCEPTION } from './src/constant'
 
 it('E', async () => {
-  expect(() => {throw new E('yo')}).toThrow(E)
+  expect(() => {throw new E({ title: 'yo' })}).toThrow(E)
   expect(() => {throw new Caller_fault('yo')}).toThrow(Caller_fault)
 })
 

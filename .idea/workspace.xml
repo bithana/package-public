@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2b655e1d-60dc-46f2-b375-2e3ebed4eebf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/general-exception/src/caller_fault/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/src/caller_fault/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,7 @@
       <recent name="$PROJECT_DIR$/general-exception/external/caller_fault" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.should throw right type">
+  <component name="RunManager" selected="Jest.E">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -105,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="should generate echain" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="E" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/general-exception/node_modules/jest" />
@@ -114,7 +116,7 @@
       <scope-kind value="TEST" />
       <test-file value="$PROJECT_DIR$/general-exception/test.ts" />
       <test-names>
-        <test-name value="should generate echain" />
+        <test-name value="E" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -178,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.E" />
+        <item itemvalue="Jest.test.ts" />
         <item itemvalue="Jest.should throw right type" />
         <item itemvalue="Jest.should print default message" />
         <item itemvalue="Jest.should generate eid" />
-        <item itemvalue="Jest.should generate echain" />
-        <item itemvalue="Jest.test.ts" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +243,7 @@
       <workItem from="1575076605966" duration="3534000" />
       <workItem from="1575080567146" duration="2027000" />
       <workItem from="1575082801731" duration="734000" />
-      <workItem from="1575099665595" duration="1794000" />
+      <workItem from="1575099665595" duration="2335000" />
     </task>
     <servers />
   </component>
@@ -275,22 +277,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="289" y="243" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1575081406593" />
-    <state width="1440" height="374" key="GridCell.Tab.0.bottom" timestamp="1575093428776">
+    <state width="1440" height="374" key="GridCell.Tab.0.bottom" timestamp="1575101779769">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="374" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575093428776" />
-    <state width="1440" height="374" key="GridCell.Tab.0.center" timestamp="1575093428775">
+    <state width="1440" height="374" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575101779769" />
+    <state width="1440" height="374" key="GridCell.Tab.0.center" timestamp="1575101779767">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="374" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575093428775" />
-    <state width="1440" height="374" key="GridCell.Tab.0.left" timestamp="1575093428774">
+    <state width="1440" height="374" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575101779767" />
+    <state width="1440" height="374" key="GridCell.Tab.0.left" timestamp="1575101779766">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="374" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575093428774" />
-    <state width="1440" height="374" key="GridCell.Tab.0.right" timestamp="1575093428775">
+    <state width="1440" height="374" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575101779766" />
+    <state width="1440" height="374" key="GridCell.Tab.0.right" timestamp="1575101779768">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="374" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575093428775" />
+    <state width="1440" height="374" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575101779768" />
     <state x="143" y="1" key="SettingsEditor" timestamp="1575081161661">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
