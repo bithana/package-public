@@ -135,10 +135,10 @@ export class E extends CustomError implements Exception_Interface {
     const title = red.bold(`${this.title ?? '-'}`)
     const detail = `
 
-  ${key_color('solution:')} ${this.solution ?? '-'}
-  ${key_color('eid:')} ${this.eid ?? '-'}
-  ${key_color('level:')} ${this.level ?? '-'}
-  ${key_color('echain:')} ${this.echain ?? '-'}
+  ${key_color('Solution:')} ${this.solution ?? '-'}
+  ${key_color('Eid:')} ${this.eid ?? '-'}
+  ${key_color('Level:')} ${this.level ?? '-'}
+  ${key_color('Echain:')} ${this.echain ?? '-'}
 `
 
     return title + detail
