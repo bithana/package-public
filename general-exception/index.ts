@@ -50,15 +50,15 @@ export class E extends CustomError implements Exception_Interface {
   public data?: any
 
   constructor(
-    title: string,
+    title?: string,
     solution?: string,
     data?: any,
   ) {
     super()
 
     this.title = title
-    this.data = data
     this.solution = solution
+    this.data = data
     this.echain = this.generate_echain()
 
     // Last order
