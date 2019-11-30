@@ -1,7 +1,7 @@
+import { cyan, red } from 'chalk'
 import { CustomError } from 'ts-custom-error'
 import { GENERAL_EXCEPTION } from './src/constant'
 import { Eid, Exception_Interface } from './type'
-import { blue, cyan } from 'chalk'
 
 export class E extends CustomError implements Exception_Interface {
 
@@ -109,13 +109,14 @@ export class E extends CustomError implements Exception_Interface {
   }
 
   toString() {
-    const title = `${this.title ?? '-'}`
-    const detail = cyan(`
+    const key_color = cyan.bold
+    const title = red.bold(`${this.title ?? '-'}`)
+    const detail = `
 
-  Solution: ${this.solution ?? '-'}
-  Eid: ${this.eid ?? '-'}
-  Echain: ${this.echain ?? '-'}
-`)
+  ${key_color('Solution:')} ${this.solution ?? '-'}
+  ${key_color('Eid:')} ${this.eid ?? '-'}
+  ${key_color('Echain:')} ${this.echain ?? '-'}
+`
 
     return title + detail
   }
