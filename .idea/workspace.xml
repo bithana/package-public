@@ -3,11 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="2b655e1d-60dc-46f2-b375-2e3ebed4eebf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree_constraint/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/tree_constraint/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree_constraint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tree_constraint/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +29,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="jVgzAnps" />
+  </component>
   <component name="PhpServers">
     <servers />
   </component>
   <component name="ProjectId" id="1TQVHF4XPNfKVUwH3Lo0YCfOa9N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -40,18 +51,19 @@
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/tree_constraint/src" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
-    <property name="node.js.selected.package.tslint" value="" />
-    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/tree_constraint/node_modules/jest" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/general-exception/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/general-exception/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/canx/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -68,30 +80,18 @@
       <recent name="$PROJECT_DIR$/general-exception" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Jest.tree.test.ts">
+  <component name="RunManager" selected="Jest.should generate eid">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,6 +117,19 @@
       <envs />
       <scope-kind value="TEST_FILE" />
       <test-file value="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration name="should generate eid" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/general-exception/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/general-exception" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/general-exception/test.ts" />
+      <test-names>
+        <test-name value="should generate eid" />
+      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="test.ts (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -149,19 +162,6 @@
       <test-file value="$PROJECT_DIR$/tree_constraint/src/tree.test.ts" />
       <method v="2" />
     </configuration>
-    <configuration name="up_collect" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/tree_constraint/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$/tree_constraint" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/tree_constraint/src/constraint.test.ts" />
-      <test-names>
-        <test-name value="up_collect" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -173,13 +173,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.should generate eid" />
+        <item itemvalue="Jest.test.ts" />
         <item itemvalue="Jest.tree.test.ts" />
         <item itemvalue="Jest.constraint.test.ts" />
         <item itemvalue="Jest.test.ts (1)" />
-        <item itemvalue="Jest.test.ts" />
-        <item itemvalue="Jest.up_collect" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -221,6 +233,7 @@
       <workItem from="1573705853375" duration="281000" />
       <workItem from="1573706314288" duration="6000" />
       <workItem from="1573706357253" duration="429000" />
+      <workItem from="1575076605966" duration="3167000" />
     </task>
     <servers />
   </component>
@@ -228,27 +241,7 @@
     <option name="version" value="1" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/general-exception/external/callee_fault/model/Invalid_Model_State_Exception.js" />
-        <option value="$PROJECT_DIR$/general-exception/index.js" />
         <option value="$PROJECT_DIR$/general-exception/type.js" />
-        <option value="$PROJECT_DIR$/general-exception/Exception.js" />
-        <option value="$PROJECT_DIR$/general-exception/external/callee_fault/Invalid_State_Exception.js" />
-        <option value="$PROJECT_DIR$/general-exception/external/caller_fault/Invalid_Parameter_Exception.js" />
-        <option value="$PROJECT_DIR$/general-exception/external/caller_fault/model/Invalid_Model_Property_Exception.js" />
-        <option value="$PROJECT_DIR$/general-exception/external/External_Exception.js" />
-        <option value="$PROJECT_DIR$/../bithana_server/node_modules/@bithana/general-exception/external/caller_fault/Invalid_Parameter_Exception.js" />
-        <option value="$PROJECT_DIR$/../bithana_server/node_modules/@bithana/general-exception/external/callee_fault/Invalid_State_Exception.js" />
-        <option value="$PROJECT_DIR$/../bithana_server/node_modules/@bithana/general-exception/external/callee_fault/model/Invalid_Model_State_Exception.js" />
-        <option value="$PROJECT_DIR$/../bithana_server/node_modules/@bithana/general-exception/external/caller_fault/model/Invalid_Model_Property_Exception.js" />
-        <option value="$PROJECT_DIR$/../bithana_server/node_modules/@bithana/general-exception/index.js" />
-        <option value="$PROJECT_DIR$/../bithana_server/node_modules/@bithana/general-exception/type.js" />
-        <option value="$PROJECT_DIR$/../bithana_server/node_modules/@bithana/general-exception/Exception.js" />
-        <option value="$PROJECT_DIR$/../bithana_server/node_modules/@bithana/general-exception/external/External_Exception.js" />
-        <option value="$PROJECT_DIR$/../bithana_server/node_modules/@bithana/general-exception/index.js" />
-        <option value="$PROJECT_DIR$/../bithana_server/node_modules/@bithana/general-exception/Exception.js" />
-        <option value="$PROJECT_DIR$/../bithana_server/node_modules/@bithana/general-exception/external/External_Exception.js" />
-        <option value="$PROJECT_DIR$/../bithana_server/node_modules/@bithana/general-exception/external/caller_fault/Invalid_Parameter_Exception.js" />
-        <option value="$PROJECT_DIR$/print/src/index.d.ts" />
       </list>
     </option>
   </component>
@@ -264,6 +257,24 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1440" height="374" key="GridCell.Tab.0.bottom" timestamp="1575079681466">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="374" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575079681466" />
+    <state width="1440" height="374" key="GridCell.Tab.0.center" timestamp="1575079681465">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="374" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575079681465" />
+    <state width="1440" height="374" key="GridCell.Tab.0.left" timestamp="1575079681465">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="374" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575079681465" />
+    <state width="1440" height="374" key="GridCell.Tab.0.right" timestamp="1575079681466">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="374" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575079681466" />
   </component>
   <component name="masterDetails">
     <states>

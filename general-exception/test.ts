@@ -2,6 +2,7 @@ import { Callee_fault } from './src/callee_fault'
 import { Invalid_model_state } from './src/callee_fault/invalid_model_state'
 import { E } from './index'
 import { Caller_fault } from './src/caller_fault/index'
+import { GENERAL_EXCEPTION } from './src/constant'
 
 it('E', async () => {
   expect(() => {throw new E('yo')}).toThrow(E)
@@ -13,7 +14,12 @@ it('should throw exception', async () => {
 })
 
 it('should generate eid', async () => {
+  const e = new Invalid_model_state('yo', 'ha')
+  expect(e.eid).toBe(GENERAL_EXCEPTION)
+})
+
+it('should generate echain', async () => {
   const e = new Invalid_model_state('yo')
-  expect(e.eid).toContain('.')
+  expect(e.echain).toContain('.')
   expect(e.chain.length).toBeGreaterThan(0)
 })

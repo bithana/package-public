@@ -26,7 +26,7 @@ var E = /** @class */ (function (_super) {
         _this.eid = _this.make_eid();
         return _this;
     }
-    E.prototype.make_eid = function (ins, eid) {
+    E.prototype.generate_echain = function (ins, eid) {
         if (ins === void 0) { ins = undefined; }
         if (eid === void 0) { eid = ''; }
         if (ins === undefined) {
@@ -39,7 +39,7 @@ var E = /** @class */ (function (_super) {
         if (ins.constructor === E || ins.constructor === null) {
             return eid;
         }
-        return this.make_eid(ins, eid);
+        return this.generate_echain(ins, eid);
     };
     /**
      * Whether `this` is given Exception Type

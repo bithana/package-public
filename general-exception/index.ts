@@ -1,22 +1,75 @@
 import { CustomError } from 'ts-custom-error'
+import { GENERAL_EXCEPTION } from './src/constant'
 import { Eid, Exception_Interface } from './type'
+import { blue, cyan } from 'chalk'
 
 export class E extends CustomError implements Exception_Interface {
 
-  eid: Eid | string = ''
+  /**
+   * Unique error code for error identifying, can be overwritten by by descendents.
+   */
+  eid: Eid | string = GENERAL_EXCEPTION
 
+  /**
+   * String version of error chain from inheritance.
+   * @example 'e.external.invalid_api_argument'
+   */
+  echain: string
+
+  /**
+   * Error chain from inheritance.
+   * @example [ 'e', 'external', 'invalid_api_argument' ]
+   */
   chain: string[] = []
 
+  /**
+   * Error level, defined and specified by descendents.
+   *
+   * @example 'internal'
+   * @example 'api'
+   * @example 'database'
+   * @example 'file'
+   */
+  level: string
+
+  /**
+   * Error title
+   * One line to cover the error.
+   *
+   * @example 'Missing configuration <port> for database'
+   */
+  title: string
+
+  /**
+   * How to solve this problem
+   */
+  public solution?: string
+
+  public message: string
+
+  public data?: any
+
   constructor(
-    public message: string,
-    public solution?: string,
-    public data?: any,
+    title: string,
+    solution?: string,
+    data?: any,
   ) {
-    super(message)
-    this.eid = this.make_eid()
+    super()
+
+    this.title = title
+    this.data = data
+    this.solution = solution
+    this.echain = this.generate_echain()
+
+    // Last order
+    this.message = this.toString()
   }
 
-  make_eid(ins = undefined, eid = '') {
+  /**
+   * @param ins
+   * @param echain
+   */
+  generate_echain(ins = undefined) {
     if (ins === undefined) {
       ins = this
     }
@@ -25,13 +78,12 @@ export class E extends CustomError implements Exception_Interface {
     const name = ins.constructor.name.toLowerCase()
 
     this.chain.unshift(name)
-    eid = name + (eid ? '.' : '') + eid
 
-    if (ins.constructor === E || ins.constructor === null) {
-      return eid
+    if (ins.constructor === E || !ins.constructor) {
+      return this.chain.join('.')
     }
 
-    return this.make_eid(ins, eid)
+    return this.generate_echain(ins)
   }
 
   /**
@@ -57,6 +109,13 @@ export class E extends CustomError implements Exception_Interface {
   }
 
   toString() {
-    return `${this.eid}${this.message ? `:${this.message}` : ''}`
+    const title = `${this.title ?? '-'}`
+    const detail = cyan(`
+
+  Solution: ${this.solution ?? '-'}
+  Eid: ${this.eid ?? '-'}
+  Echain: ${this.echain ?? '-'}`)
+
+    return title + detail
   }
 }
