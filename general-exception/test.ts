@@ -13,6 +13,10 @@ it('should throw exception', async () => {
   expect(() => {throw new Callee_fault('yo')}).toThrow(Callee_fault)
 })
 
+it('should throw right type', async () => {
+  expect(() => {throw new Invalid_state('yo')}).toThrow(Invalid_state)
+})
+
 it('should generate eid', async () => {
   const e = new Callee_fault('yo', 'ha')
   expect(e.eid).toBe(GENERAL_EXCEPTION)

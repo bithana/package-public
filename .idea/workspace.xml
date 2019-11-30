@@ -3,31 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2b655e1d-60dc-46f2-b375-2e3ebed4eebf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/src/callee_fault/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/src/callee_fault/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/src/callee_fault/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/src/callee_fault/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/src/callee_fault/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/src/callee_fault/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/src/callee_fault/invalid_model_state.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/src/callee_fault/invalid_model_state.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/src/callee_fault/invalid_model_state.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/src/callee_fault/invalid_state.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/src/callee_fault/invalid_state.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/src/callee_fault/invalid_state.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/src/caller_fault/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/src/caller_fault/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/src/caller_fault/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/src/caller_fault/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/src/caller_fault/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/src/caller_fault/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/src/caller_fault/invalid_argument.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/src/caller_fault/invalid_argument.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/src/caller_fault/invalid_argument.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/src/caller_fault/invalid_model_property.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/src/caller_fault/invalid_model_property.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/src/caller_fault/invalid_model_property.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-exception/build/test.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/build/test.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/general-exception/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/general-exception/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-exception/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/general-exception/test.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +237,8 @@
       <workItem from="1573706314288" duration="6000" />
       <workItem from="1573706357253" duration="429000" />
       <workItem from="1575076605966" duration="3534000" />
-      <workItem from="1575080567146" duration="1951000" />
+      <workItem from="1575080567146" duration="2027000" />
+      <workItem from="1575082801731" duration="122000" />
     </task>
     <servers />
   </component>
@@ -293,22 +272,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="289" y="243" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1575081406593" />
-    <state width="1440" height="374" key="GridCell.Tab.0.bottom" timestamp="1575082021298">
+    <state width="1440" height="374" key="GridCell.Tab.0.bottom" timestamp="1575082596231">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="374" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575082021298" />
-    <state width="1440" height="374" key="GridCell.Tab.0.center" timestamp="1575082021297">
+    <state width="1440" height="374" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575082596231" />
+    <state width="1440" height="374" key="GridCell.Tab.0.center" timestamp="1575082596231">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="374" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575082021297" />
-    <state width="1440" height="374" key="GridCell.Tab.0.left" timestamp="1575082021297">
+    <state width="1440" height="374" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575082596231" />
+    <state width="1440" height="374" key="GridCell.Tab.0.left" timestamp="1575082596230">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="374" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575082021297" />
-    <state width="1440" height="374" key="GridCell.Tab.0.right" timestamp="1575082021298">
+    <state width="1440" height="374" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575082596230" />
+    <state width="1440" height="374" key="GridCell.Tab.0.right" timestamp="1575082596231">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="374" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575082021298" />
+    <state width="1440" height="374" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575082596231" />
     <state x="143" y="1" key="SettingsEditor" timestamp="1575081161661">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
