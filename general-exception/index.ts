@@ -3,6 +3,14 @@ import { CustomError } from 'ts-custom-error'
 import { GENERAL_EXCEPTION } from './src/constant'
 import { Eid, Exception_Interface } from './type'
 
+export interface T_error_opt {
+  title?: string
+  solution?: string
+  data?: any
+  eid?: string
+  level?: string
+}
+
 export class E extends CustomError implements Exception_Interface {
 
   /**
@@ -25,7 +33,8 @@ export class E extends CustomError implements Exception_Interface {
   /**
    * Error level, defined and specified by descendents.
    *
-   * @example 'internal'
+   * @default  'internal'
+   *
    * @example 'api'
    * @example 'database'
    * @example 'file'
@@ -50,15 +59,28 @@ export class E extends CustomError implements Exception_Interface {
   public data?: any
 
   constructor(
-    title?: string,
+    title?: string | T_error_opt,
     solution?: string,
-    data?: any,
   ) {
     super()
 
-    this.title = title
-    this.solution = solution
-    this.data = data
+    let opt: T_error_opt = {
+      level: 'internal',
+    }
+
+    if (typeof title === 'string') {
+      opt.title = title
+      opt.solution = solution
+    } else if (typeof title === 'object') {
+      opt = { ...opt, ...title }
+    }
+
+    opt.title && (this.title = opt.title)
+    opt.solution && (this.solution = opt.solution)
+    opt.data && (this.data = opt.data)
+    opt.eid && (this.eid = opt.eid)
+    opt.level && (this.level = opt.level)
+
     this.echain = this.generate_echain()
 
     // Last order
