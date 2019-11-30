@@ -114,7 +114,8 @@ export class E extends CustomError implements Exception_Interface {
 
   Solution: ${this.solution ?? '-'}
   Eid: ${this.eid ?? '-'}
-  Echain: ${this.echain ?? '-'}`)
+  Echain: ${this.echain ?? '-'}
+`)
 
     return title + detail
   }
