@@ -17,4 +17,16 @@ export class Invalid_signature extends Invalid_api_input {
     solution = 'You can use our SDK to generate signature easily, or read about signature here: http://...'
   ) { super(title, solution) }
 }
+
+/**
+ * Using option object
+ */
+export class Invalid_parameter extends Invalid_api_input {
+  constructor(
+    title = 'Invalid API parameter <...>',
+    solution = '...'
+  ) { super({title, solution, level: 'public'}) }
+}
+
+
 ```
