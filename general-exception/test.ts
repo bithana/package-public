@@ -2,6 +2,7 @@ import { E } from './index'
 import { Callee_fault } from './src/callee_fault'
 import { Invalid_state } from './src/callee_fault/invalid_state/index'
 import { Caller_fault } from './src/caller_fault/index'
+import { Invalid_input } from './src/caller_fault/invalid_input/index'
 import { GENERAL_EXCEPTION } from './src/constant'
 
 it('E', async () => {
@@ -31,4 +32,9 @@ it('should generate echain', async () => {
 it('should print default message', async () => {
   const e = new Invalid_state()
   expect(e.message).toHaveLength
+})
+
+it('should JSON.stringify without color code', async () => {
+  const e = new Invalid_input()
+  console.log(JSON.parse(JSON.stringify(e)))
 })

@@ -130,6 +130,11 @@ export class E extends CustomError implements Exception_Interface {
     `
   }
 
+  toJSON() {
+    const { title, solution, echain, eid, data, level, name } = this
+    return JSON.stringify({ title, solution, echain, eid, data, level, name })
+  }
+
   toString() {
     const key_color = cyan.bold
     const title = red.bold(`${this.title ?? '-'}`)
