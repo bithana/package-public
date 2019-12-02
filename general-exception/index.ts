@@ -61,6 +61,8 @@ export class E extends CustomError implements Exception_Interface {
   constructor(
     title?: string | T_error_opt,
     solution?: string,
+    eid?: string,
+    level?: string,
   ) {
     super()
 
@@ -71,6 +73,8 @@ export class E extends CustomError implements Exception_Interface {
     if (typeof title === 'string') {
       opt.title = title
       opt.solution = solution
+      opt.eid = eid
+      opt.level = level
     } else if (typeof title === 'object') {
       opt = { ...opt, ...title }
     }
